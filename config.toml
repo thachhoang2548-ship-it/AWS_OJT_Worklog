@@ -1,4 +1,4 @@
-baseURL = "https://quangvmzu.github.io/fcj-workshop/"
+baseURL = "https://thachhoang2548-ship-it.github.io/AWS_OJT_Worklog/"
 relativeURLs = true
 canonifyURLs = true
 publishDir = "docs"
@@ -18,7 +18,7 @@ home = [ "HTML", "RSS", "JSON"]
   # Git hub repo link
   editURL = ""
   description = ""
-  author = "vminhquang05@gmail.com"
+  author = "thach2548@gmail.com"
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
