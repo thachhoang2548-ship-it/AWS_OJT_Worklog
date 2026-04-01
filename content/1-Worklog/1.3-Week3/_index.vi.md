@@ -6,71 +6,71 @@ chapter: false
 pre: " <b> 1.3. </b> "
 ---
 
-### Mục tiêu Tuần 3
+### Trọng tâm của Tuần 3
 
-Tuần này tập trung vào việc phát triển ý tưởng dự án cuối kỳ và thực hành các dịch vụ cốt lõi của AWS như EC2, S3, IAM và RDS. Các mục tiêu chính bao gồm:
+Mục đích chính của tuần này là lên khung ý tưởng cho dự án chốt khóa (capstone) đi đôi với việc cọ xát thực tế các dịch vụ xương sống của AWS như EC2, S3, IAM và RDS. Các tiêu điểm chính gồm:
 
-- **Phát triển dự án cuối kỳ**:
-  - Lên ý tưởng dự án
-  - Phân tích và lựa chọn các dịch vụ AWS phù hợp
-  - Xây dựng kiến trúc sơ bộ
+- **Định hình dự án chốt khóa**:
+  - Tổ chức brainstorm các ý tưởng khả thi.
+  - Sàng lọc và chọn lựa dịch vụ AWS tương ứng.
+  - Phác họa sơ đồ kiến trúc hệ thống ban đầu.
 
-- **Thực hành EC2**:
-  - Tìm hiểu dịch vụ EC2
-  - Triển khai máy ảo
-  - Cấu hình instance
-  - Tạo và sử dụng AMI tùy chỉnh
+- **Kinh nghiệm thực chiến EC2**:
+  - Trải nghiệm sâu hơn mô hình dịch vụ EC2.
+  - Khởi tạo và vận hành các máy ảo (virtual machines).
+  - Tùy biến thông số cấu hình của instance.
+  - Đóng gói và sử dụng các bản image (AMI) cá nhân hóa.
 
-- **Quản lý truy cập & môi trường phát triển**:
-  - Tìm hiểu và thực hành IAM Role
-  - Làm quen với Cloud9
+- **Cơ chế Phân quyền & Không gian Code (IDE)**:
+  - Ứng dụng thực tiễn của IAM Role.
+  - Khám phá môi trường lập trình đám mây AWS Cloud9.
 
-- **Lưu trữ và quản lý dữ liệu**:
-  - Cấu hình Amazon S3
-  - Quản lý dữ liệu và quyền truy cập
+- **Giải pháp Lưu trữ S3**:
+  - Xây dựng và thiết lập các bucket lưu trữ.
+  - Quản trị object và tinh chỉnh quyền truy cập dữ liệu.
 
-- **Cơ sở dữ liệu với RDS**:
-  - Tạo database
-  - Quản lý và vận hành RDS
+- **Hệ quản trị CSDL RDS**:
+  - Triển khai cụm cơ sở dữ liệu quan hệ.
+  - Nắm bắt quy trình vận hành và bảo trì RDS.
 
-- **Ôn tập & củng cố kiến thức**:
-  - Ôn lại IAM, EC2, S3, RDS
-  - Tổng hợp kiến thức từ Tuần 1 và 2
-
----
-
-### Tổng quan công việc
-
-| Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
-|:----:|---------|:------------:|:---------------:|-------------------|
-|  2   | **Định hướng dự án**:<br>- Lên ý tưởng<br>- Chọn dịch vụ AWS<br>- Phác thảo kiến trúc | 19/01/2026 | 19/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-|  3   | **EC2 & AMI**:<br>- Triển khai EC2<br>- Cấu hình máy ảo<br>- Tạo AMI tùy chỉnh | 20/01/2026 | 20/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-|  4   | **IAM Role & Cloud9**:<br>- Thực hành IAM Role<br>- Làm quen Cloud9 | 21/01/2026 | 21/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-|  5   | **S3 Storage**:<br>- Cấu hình S3<br>- Public access<br>- Versioning | 22/01/2026 | 22/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-|  6   | **RDS & Review**:<br>- Tạo database RDS<br>- Quản lý DB<br>- Ôn tập tổng hợp | 23/01/2026 | 23/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+- **Củng cố nền tảng kiến thức**:
+  - Nhìn lại hệ sinh thái IAM, EC2, S3, RDS.
+  - Hệ thống lại lượng kiến thức từ Tuần 1 và Tuần 2.
 
 ---
 
-### Kết quả đạt được
+### Chi tiết nhiệm vụ
 
-#### Những gì đã hoàn thành
+| Ngày | Chi tiết công việc | Bắt đầu | Hoàn thành | Nguồn tài liệu |
+|:----:|--------------------|:-------:|:----------:|----------------|
+|  2   | **Kế hoạch dự án**:<br>- Brainstorm ý tưởng<br>- Chốt danh sách dịch vụ<br>- Vẽ nháp kiến trúc | 19/01/2026 | 19/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+|  3   | **Máy chủ & Bản sao (AMI)**:<br>- Bật EC2<br>- Cấu hình máy chủ<br>- Xuất AMI tự tạo | 20/01/2026 | 20/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+|  4   | **Phân quyền & IDE**:<br>- Cấu hình IAM Role<br>- Thao tác trên Cloud9 | 21/01/2026 | 21/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+|  5   | **Kho lưu trữ S3**:<br>- Tạo lập bucket<br>- Cấp quyền Public<br>- Quản lý phiên bản (Versioning) | 22/01/2026 | 22/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+|  6   | **Cơ sở dữ liệu & Ôn tập**:<br>- Khởi động RDS<br>- Thao tác với DB<br>- Tổng hợp kiến thức | 23/01/2026 | 23/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
 
-- Xây dựng ý tưởng và kiến trúc cho **dự án cuối kỳ**
-- Thành thạo triển khai và quản lý nhiều **EC2 instances**
-- Tạo và sử dụng **AMI tùy chỉnh**
-- Hiểu và áp dụng **IAM Role** trong thực tế
-- Làm quen môi trường phát triển **Cloud9**
-- Xây dựng thành công **website tĩnh trên S3**:
-  - Public access
-  - Versioning
-  - Replication (multi-region)
-- Tạo và vận hành cơ sở dữ liệu trên **Amazon RDS**
-- Củng cố kiến thức từ các tuần trước
+---
 
-#### Tóm tắt kiến trúc
+### Thành quả Tuần 3
 
-- **Compute**: EC2 + AMI tùy chỉnh
-- **Storage**: S3 (Static Website + Versioning + Replication)
-- **Database**: RDS (Managed DB)
-- **Access Control**: IAM Role
-- **Dev Environment**: Cloud9
+#### Cột mốc đạt được
+
+- Chốt hạ được bản thiết kế kiến trúc chuẩn chỉnh cho **dự án cuối khóa**.
+- Khởi chạy và kiểm soát trơn tru hệ thống các máy ảo **EC2 instances**.
+- Thành thạo việc tạo bản sao lưu và tái triển khai qua **AMI tùy chỉnh**.
+- Triển khai **IAM Roles** đáp ứng đúng bài toán phân quyền thực tế.
+- Khởi tạo và sử dụng thành thạo môi trường IDE **AWS Cloud9**.
+- Hoàn thành **trang web tĩnh lưu trữ trên Amazon S3** với các tính năng:
+  - Cho phép truy cập từ internet (Public access).
+  - Lưu vết các bản cập nhật (Versioning).
+  - Đồng bộ chép vác dữ liệu liên region (Cross-region replication).
+- Vận hành trơn tru một cụm database qua dịch vụ **Amazon RDS**.
+- Nắm vững hơn những mảng kiến thức đã được học ở các tuần đầu.
+
+#### Kiến thức cốt lõi
+
+- **Lớp tính toán (Compute)**: Dùng máy chủ ảo EC2 kết hợp các bản AMI được tùy biến.
+- **Lớp lưu trữ (Storage)**: Khai thác kho chứa S3 (hỗ trợ Web tĩnh + Versioning + Replication).
+- **Lớp dữ liệu (Database)**: Dịch vụ cơ sở dữ liệu tích hợp sẵn RDS.
+- **Lớp bảo mật (Access Control)**: Quản lý quyền theo vai trò qua IAM Role.
+- **Không gian phát triển (Dev Environment)**: Công cụ lập trình dựa trên web Cloud9.

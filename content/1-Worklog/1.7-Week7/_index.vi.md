@@ -6,60 +6,60 @@ chapter: false
 pre: " <b> 1.7. </b> "
 ---
 
-### Mục tiêu Tuần 7
+### Trọng tâm của Tuần 7
 
-Tuần này tập trung vào việc tiếp tục triển khai dự án mới, bao gồm xây dựng cơ sở dữ liệu, phát triển ý tưởng tổng thể và thiết kế giao diện ban đầu cho hệ thống. Bên cạnh đó, nhóm cũng tham gia workshop thực hành để mở rộng kiến thức về giám sát hệ thống trên AWS.
+Trọng tâm tuần này là xúc tiến việc xây dựng dự án mới, trải dọc từ khâu thiết kế dữ liệu, chốt ý tưởng đến việc phác họa giao diện UI rập khuôn. Song song đó, chúng tôi cũng tham gia một buổi tập huấn chuyên sâu để củng cố kỹ năng giám sát hệ thống (observability) trên AWS.
 
-- **Phát triển ý tưởng dự án**:
-  - Hoàn thiện định hướng và phạm vi dự án
-  - Xác định các thành phần chính của hệ thống
-  - Làm rõ kiến trúc tổng thể
+- **Định hình Sản phẩm**:
+  - Gọt giũa lại tầm nhìn và giới hạn tính năng.
+  - Lập danh sách các khối chức năng lõi của hệ thống.
+  - Chốt sơ đồ kiến trúc tổng thể.
 
-- **Xây dựng cơ sở dữ liệu**:
-  - Thiết kế database cho dự án
-  - Xác định các bảng, quan hệ và dữ liệu cần thiết
-  - Chuẩn bị cấu trúc phục vụ phát triển tính năng
+- **Thiết kế Đáy (Database Layer)**:
+  - Lập mô hình cơ sở dữ liệu cho sản phẩm.
+  - Khai báo cấu trúc bảng, các trường dữ liệu và ràng buộc.
+  - Đảm bảo tính mở rộng cho các luồng nghiệp vụ sau này.
 
-- **Thiết kế giao diện**:
-  - Phác thảo giao diện cho dự án mới
-  - Xác định luồng sử dụng cơ bản của người dùng
-  - Chuẩn bị nền tảng cho phần frontend
+- **Giao diện Người dùng (UI)**:
+  - Phác họa (wireframe) các màn hình cốt lõi.
+  - Chuẩn hóa luồng thao tác (user flow) cho người dùng cuối.
+  - Tạo tiền đề cho team Frontend tiến hành viết code.
 
-- **Mở rộng kiến thức thực tế**:
-  - Tham dự workshop **Building Full-Stack Observability on AWS with Datadog**
-  - Tìm hiểu cách giám sát metrics, logs và traces trên AWS
-  - Làm quen với tư duy observability cho hệ thống phân tán
-
----
-
-### Tổng quan công việc
-
-| Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
-|:----:|---------|:------------:|:---------------:|-------------------|
-|  2   | **Project Ideation**:<br>- Hoàn thiện ý tưởng dự án<br>- Xác định phạm vi và kiến trúc tổng thể | 24/02/2026 | 24/02/2026 | Internal |
-|  3   | **Database Design**:<br>- Thiết kế database<br>- Xác định bảng, khóa và quan hệ dữ liệu | 25/02/2026 | 25/02/2026 | Personal Notes |
-|  4   | **UI Planning**:<br>- Phác thảo giao diện<br>- Xây dựng user flow cơ bản | 26/02/2026 | 26/02/2026 | Figma / Internal |
-|  5   | **AWS Workshop Event**:<br>- Tham dự workshop “Building Full-Stack Observability on AWS with Datadog”<br>- Tìm hiểu giám sát metrics, logs, traces trên AWS | 27/02/2026 | 27/02/2026 | Event |
+- **Lớp học Thực chiến (Workshop)**:
+  - Đồng hành cùng sự kiện **Building Full-Stack Observability on AWS with Datadog**.
+  - Thực hành thu thập metrics, logs và traces trực tiếp trên hạ tầng AWS.
+  - Mở mang tư duy về Observability cho kiến trúc phân tán.
 
 ---
 
-### Kết quả đạt được
+### Chi tiết nhiệm vụ
 
-#### Những gì đã hoàn thành
+| Ngày | Chi tiết công việc | Bắt đầu | Hoàn thành | Nguồn tài liệu |
+|:----:|--------------------|:-------:|:----------:|----------------|
+|  2   | **Chốt hạ ý tưởng**:<br>- Tinh chỉnh concept<br>- Giới hạn scope và chốt kiến trúc | 24/02/2026 | 24/02/2026 | Internal |
+|  3   | **Xây Database**:<br>- Thiết kế schema<br>- Quy định các bảng và khóa liên kết | 25/02/2026 | 25/02/2026 | Personal Notes |
+|  4   | **Phác thảo UX/UI**:<br>- Lên wireframe<br>- Tạo luồng trải nghiệm khách hàng | 26/02/2026 | 26/02/2026 | Figma / Internal |
+|  5   | **Thực hành Giám sát**:<br>- Dự Workshop Datadog<br>- Trải nghiệm giám sát metrics/logs/traces | 27/02/2026 | 27/02/2026 | Event |
 
-- Hoàn thiện rõ hơn **ý tưởng và định hướng triển khai** cho dự án mới
-- Xây dựng được nền tảng **database design** cho hệ thống
-- Phác thảo được **giao diện ban đầu** và luồng sử dụng chính
-- Mở rộng hiểu biết về **observability trên AWS**
-- Tham gia workshop thực hành và tiếp cận thêm kiến thức thực tế về:
-  - Metrics
-  - Logs
-  - Traces
-  - Root cause analysis trong hệ thống phân tán
+---
 
-#### Tóm tắt định hướng kiến trúc
+### Thành quả Tuần 7
 
-- **Project Planning**: Xác định rõ phạm vi, chức năng và kiến trúc tổng thể
-- **Database Layer**: Thiết kế các bảng và mối quan hệ dữ liệu cho dự án
-- **Interface Layer**: Xây dựng wireframe và định hướng trải nghiệm người dùng
-- **Observability**: Tiếp cận mô hình giám sát hiện đại trên AWS với Datadog
+#### Cột mốc đạt được
+
+- Chốt phương án **triển khai và giới hạn chức năng** một cách gãy gọn.
+- Tạo xong bộ khung **thiết kế cơ sở dữ liệu** làm gốc rễ cho dự án.
+- Hoàn tất bộ **wireframe giao diện** và luồng tương tác người dùng.
+- Tiếp thu thêm nhiều kỹ năng về **Observability trên nền AWS**.
+- Tích lũy kinh nghiệm từ workshop thực tế về các mảng:
+  - Metrics (Số đo hiệu năng)
+  - Logs (Ghi chú hệ thống)
+  - Traces (Theo vết phân tán)
+  - Root cause analysis (Truy vết lỗi tận gốc)
+
+#### Định hướng Kiến trúc
+
+- **Quản lý Dự án**: Làm rõ scope, mô tả chức năng và toàn cảnh hệ thống.
+- **Lớp Dữ liệu**: Tổ chức schema và sự ràng buộc giữa các thực thể.
+- **Lớp Hiển thị**: Đóng gói wireframe định hướng trải nghiệm.
+- **Lớp Giám sát**: Áp dụng chuẩn Observability tân tiến qua Datadog.

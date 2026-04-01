@@ -6,85 +6,85 @@ chapter: false
 pre: " <b> 1.2. </b> "
 ---
 
-### Week 2 Objectives
+### Targets for Week 2
 
-This week focused on building a strong foundation in AWS identity management and networking, progressing from basic to advanced concepts. The key objectives included:
+The core theme of this week was establishing secure access controls and designing a robust AWS network architecture. We moved from standard configurations to more complex setups. The main goals were:
 
-- **IAM Management**:
-  - Create Users and Groups
-  - Attach appropriate Policies
-  - Create and use IAM Roles
-  - Practice **Switch Role**
+- **Identity and Access Management (IAM)**:
+  - Generate new Users and Groups.
+  - Apply the correct permission Policies.
+  - Define and utilize IAM Roles.
+  - Gain hands-on experience with **Switch Role**.
 
-- **Understand VPC Networking**:
-  - Overview of VPC architecture
-  - Compare **Security Groups vs Network ACLs**
-  - Prepare networking environment for EC2
+- **Mastering VPC Fundamentals**:
+  - Grasp the overall VPC structure.
+  - Differentiate between **NACLs and Security Groups**.
+  - Lay the networking groundwork to host EC2 instances.
 
-- **Deploy EC2**:
-  - Launch EC2 instances in subnets
-  - Configure Security Groups
-  - Connect via SSH using Key Pair
+- **EC2 Deployment**:
+  - Provision EC2 instances within designated subnets.
+  - Set up necessary Security Group firewall rules.
+  - Establish remote SSH access using Key Pairs.
 
-- **Configure Hybrid DNS with Route 53 Resolver**:
-  - Create Key Pair
-  - Configure Security Groups
-  - Configure DNS:
-    - Create Outbound Endpoint
-    - Create Resolver Rules
-    - Create Inbound Endpoint
-  - Clean up resources
+- **Hybrid DNS Integration with Route 53 Resolver**:
+  - Generate a secure Key Pair.
+  - Adjust Security Group settings.
+  - DNS Configuration steps:
+    - Launch an Outbound Endpoint.
+    - Define Resolver routing rules.
+    - Deploy an Inbound Endpoint.
+  - Remove unnecessary resources afterward.
 
-- **Set up VPC Peering**:
-  - Introduction to Peering
-  - Use CloudFormation for infrastructure setup
-  - Create Security Groups & EC2 instances
-  - Update Network ACLs
-  - Establish Peering Connection
-  - Update Route Tables
-  - Enable Cross-Peer DNS
+- **Configuring VPC Peering**:
+  - Understand the concept of VPC Peering.
+  - Provision the base infrastructure using CloudFormation.
+  - Boot up EC2 instances and attach Security Groups.
+  - Modify Network ACL rules.
+  - Complete the Peering Connection setup.
+  - Route Tables adjustment.
+  - Turn on DNS resolution across peers.
 
-- **Deploy AWS Transit Gateway**:
-  - Create Transit Gateway
-  - Create Attachments for each VPC
-  - Configure Transit Gateway Route Tables
-  - Update VPC Route Tables
-
----
-
-### Tasks Overview
-
-| Day | Task | Start Date | Completion Date | References |
-| :-: |------|:----------:|:---------------:|------------|
-|  2  | **IAM & EC2 Basics**:<br>- Create Users & Groups<br>- Attach Policies<br>- Create Role & Switch Role<br>- Launch EC2 + SSH | 12/01/2026 | 12/01/2026 | [AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj/) |
-|  3  | **VPC Networking**:<br>- VPC Overview<br>- Security Group vs NACL<br>- Subnet preparation | 13/01/2026 | 13/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-|  4  | **Hybrid DNS (Route 53 Resolver)**:<br>- Key Pair<br>- Security Groups<br>- Outbound / Inbound Endpoints<br>- Resolver Rules | 14/01/2026 | 14/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-|  5  | **VPC Peering**:<br>- CloudFormation Template<br>- EC2 & SG setup<br>- Peering connection<br>- Route Tables update<br>- Enable DNS | 15/01/2026 | 15/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-|  6  | **Transit Gateway**:<br>- Create TGW<br>- Attach VPCs<br>- Configure routing | 16/01/2026 | 16/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+- **Implementing AWS Transit Gateway**:
+  - Provision a Transit Gateway.
+  - Attach the participating VPCs.
+  - Set up routing rules within the Transit Gateway.
+  - Modify individual VPC Route Tables accordingly.
 
 ---
 
-### Week 2 Achievements
+### Task Breakdown
 
-#### What was accomplished
+| Day | Task Description | Started | Completed | Source Link |
+| :-: |------------------|:-------:|:---------:|-------------|
+|  2  | **Core IAM & EC2**:<br>- User/Group mapping<br>- Policy assignment<br>- Role switching<br>- EC2 provisioning & SSH | 12/01/2026 | 12/01/2026 | [AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj/) |
+|  3  | **VPC Infrastructure**:<br>- VPC concepts<br>- SG vs NACL comparison<br>- Subnet layout preparation | 13/01/2026 | 13/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+|  4  | **Route 53 Hybrid DNS**:<br>- Key Pair setup<br>- SG rules<br>- Inbound/Outbound Endpoints<br>- Resolver configuration | 14/01/2026 | 14/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+|  5  | **VPC Peering Setup**:<br>- CloudFormation deployment<br>- EC2/SG configuration<br>- Link peering connection<br>- Route adjustments<br>- DNS enablement | 15/01/2026 | 15/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+|  6  | **Transit Gateway (TGW)**:<br>- Setup TGW<br>- VPC attachments<br>- Routing setup | 16/01/2026 | 16/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
 
-- Gained a solid understanding of **IAM** and successfully practiced **Switch Role**
-- Mastered **VPC networking** and security mechanisms using Security Groups
-- Successfully deployed and connected to an **EC2 instance via SSH**
-- Configured **Hybrid DNS** using Route 53 Resolver
-- Implemented **VPC Peering** between Dev and Staging environments
-- Deployed **AWS Transit Gateway** as a central networking hub
-- Practiced **Infrastructure as Code (IaC)** using CloudFormation
-- Completed proper **resource cleanup**
+---
 
-#### Architecture Summary
+### Results of Week 2
 
-- **IAM Structure**: Users → Groups → Policies → Roles for flexible access control
-- **VPC Security Model**:
-  - Security Group: instance-level firewall
-  - NACL: subnet-level firewall
-- **Hybrid DNS**:
-  - On-premises ↔ AWS via Route 53 Resolver Endpoints
-- **Networking**:
-  - VPC Peering: point-to-point connection
-  - Transit Gateway: hub-and-spoke architecture
+#### Milestones Reached
+
+- Acquired deep practical knowledge of **IAM** and the **Switch Role** functionality.
+- Gained proficiency in **VPC network topology** and network-level defense layers.
+- Confidently spun up an **EC2 instance** and accessed it via SSH.
+- Set up a functional **Hybrid DNS** architecture using Route 53 Resolvers.
+- Bridge Dev and Staging networks successfully via **VPC Peering**.
+- Centralized network routing using **AWS Transit Gateway**.
+- Introduced **Infrastructure as Code (IaC)** principles with AWS CloudFormation.
+- Faithfully executed **resource cleanup** to optimize costs.
+
+#### Architecture Key Takeaways
+
+- **IAM Hierarchy**: Users → Groups → Policies → Roles (enables dynamic permissions).
+- **VPC Defense Approach**:
+  - Security Groups: Stateful instance-level control.
+  - NACLs: Stateless subnet-level boundary control.
+- **Hybrid DNS Flow**:
+  - Route 53 Resolver Endpoints bridging On-premises and AWS environments.
+- **Network Topologies**:
+  - VPC Peering: Direct 1-to-1 network link.
+  - Transit Gateway: Scalable hub-and-spoke centralized design.

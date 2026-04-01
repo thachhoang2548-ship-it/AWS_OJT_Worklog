@@ -6,71 +6,71 @@ chapter: false
 pre: " <b> 1.3. </b> "
 ---
 
-### Week 3 Objectives
+### Targets for Week 3
 
-This week focused on developing the final project idea and gaining hands-on experience with core AWS services such as EC2, S3, IAM, and RDS. The key objectives included:
+The main objective of this week was to conceptualize the capstone project while gaining practical, hands-on exposure to primary AWS services like EC2, S3, IAM, and RDS. The primary goals were:
 
-- **Final Project Development**:
-  - Brainstorm project ideas
-  - Identify suitable AWS services
-  - Design a preliminary architecture
+- **Capstone Project Formulation**:
+  - Ideate potential project concepts.
+  - Determine the appropriate AWS resources to use.
+  - Sketch an initial architectural diagram.
 
-- **EC2 Practice**:
-  - Understand EC2 service
-  - Launch virtual machines
-  - Configure instances
-  - Create and use custom AMIs
+- **EC2 Hands-On Experience**:
+  - Grasp the fundamentals of Amazon EC2.
+  - Provision and boot virtual servers.
+  - Tweak instance configurations.
+  - Build and deploy custom Amazon Machine Images (AMIs).
 
-- **Access Management & Development Environment**:
-  - Practice IAM Roles
-  - Get familiar with AWS Cloud9
+- **Identity Control & Dev Workspaces**:
+  - Implement and test IAM Roles.
+  - Navigate and utilize the AWS Cloud9 IDE.
 
-- **Storage & Data Management**:
-  - Configure Amazon S3
-  - Manage access and storage features
+- **Storage Solutions & Data Handling**:
+  - Set up Amazon S3 buckets.
+  - Configure storage properties and control access permissions.
 
-- **Database with RDS**:
-  - Create databases
-  - Manage and operate RDS instances
+- **Relational Databases via RDS**:
+  - Provision relational databases.
+  - Administer and maintain RDS deployments.
 
-- **Review & Reinforcement**:
-  - Review IAM, EC2, S3, RDS
-  - Revisit Week 1 and Week 2 knowledge
-
----
-
-### Tasks Overview
-
-| Day | Task | Start Date | Completion Date | References |
-| :-: |------|:----------:|:---------------:|------------|
-|  2  | **Project Planning**:<br>- Brainstorm ideas<br>- Select AWS services<br>- Draft architecture | 19/01/2026 | 19/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-|  3  | **EC2 & AMI**:<br>- Launch EC2<br>- Configure instances<br>- Create custom AMI | 20/01/2026 | 20/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-|  4  | **IAM Role & Cloud9**:<br>- Practice IAM Roles<br>- Explore Cloud9 | 21/01/2026 | 21/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-|  5  | **S3 Storage**:<br>- Configure S3<br>- Public access<br>- Versioning | 22/01/2026 | 22/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-|  6  | **RDS & Review**:<br>- Create RDS database<br>- Manage DB<br>- Review concepts | 23/01/2026 | 23/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+- **Knowledge Consolidation**:
+  - Go over key concepts of IAM, EC2, S3, and RDS.
+  - Review materials from the first two weeks.
 
 ---
 
-### Week 3 Achievements
+### Task Breakdown
 
-#### What was accomplished
+| Day | Task Description | Started | Completed | Source Link |
+| :-: |------------------|:-------:|:---------:|-------------|
+|  2  | **Project Strategy**:<br>- Idea generation<br>- AWS service mapping<br>- Architectural drafting | 19/01/2026 | 19/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+|  3  | **Compute & Images**:<br>- Boot EC2 servers<br>- Instance setup<br>- Custom AMI generation | 20/01/2026 | 20/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+|  4  | **Roles & Cloud IDE**:<br>- IAM Role implementation<br>- Cloud9 workspace setup | 21/01/2026 | 21/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+|  5  | **S3 Configuration**:<br>- Bucket setup<br>- Enabling public access<br>- Object versioning | 22/01/2026 | 22/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+|  6  | **Database & Recap**:<br>- Launch RDS instance<br>- Database administration<br>- Conceptual review | 23/01/2026 | 23/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
 
-- Designed a clear architecture for the **final project**
-- Successfully deployed and managed multiple **EC2 instances**
-- Created and utilized **custom AMIs**
-- Applied **IAM Roles** in real scenarios
-- Became familiar with **AWS Cloud9**
-- Built a **static website on Amazon S3**:
-  - Public access
-  - Versioning
-  - Cross-region replication
-- Created and operated a database using **Amazon RDS**
-- Reinforced knowledge from previous weeks
+---
 
-#### Architecture Summary
+### Results of Week 3
 
-- **Compute**: EC2 with custom AMIs
-- **Storage**: S3 (Static Hosting + Versioning + Replication)
-- **Database**: RDS (Managed service)
-- **Access Control**: IAM Roles
-- **Development**: Cloud9
+#### Milestones Reached
+
+- Mapped out a definitive architecture for the **capstone project**.
+- Confidently provisioned and monitored multiple **EC2 virtual servers**.
+- Successfully packaged and launched servers using **custom AMIs**.
+- Demonstrated the practical use of **IAM Roles**.
+- Gained proficiency in using the **AWS Cloud9** environment.
+- Hosted a **static website using Amazon S3** with:
+  - Configured public access.
+  - Enabled version control.
+  - Set up cross-region replication.
+- Provisioned and managed a functional database cluster using **Amazon RDS**.
+- Solidified understanding of previously covered topics.
+
+#### Architecture Key Takeaways
+
+- **Compute Layer**: Amazon EC2 paired with tailored AMIs.
+- **Storage Layer**: Amazon S3 (configured for Static Hosting, Versioning, and Replication).
+- **Database Layer**: Amazon RDS (fully managed RDBMS).
+- **Security & Access**: Granular control via IAM Roles.
+- **Development Tooling**: AWS Cloud9 IDE.

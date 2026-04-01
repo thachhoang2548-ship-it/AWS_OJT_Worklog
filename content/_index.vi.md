@@ -9,11 +9,10 @@ chapter: false
 
 ### Thông tin sinh viên:
 
-&emsp; **Họ và tên:** Vũ Minh Quang
+&emsp; **Họ và tên:** Hoàng Bảo Thạch
+&emsp; **Số điện thoại:** 0373111370
 
-&emsp; **Số điện thoại:** 0378554725
-
-&emsp; **Email:** vminhquang05@gmail.com
+&emsp; **Email:** thach2548@gmail.com
 
 &emsp; **Trường:** Trường đại học FPT
 

@@ -6,65 +6,65 @@ chapter: false
 pre: " <b> 1.6. </b> "
 ---
 
-### Week 6 Objectives
+### Targets for Week 6
 
-This week focused on learning and practicing relational databases using SQL Server, including schema design, data operations, and performance evaluation.
+This week shifted the focus to the data layer, specifically working with relational database systems utilizing SQL Server. We covered everything from schema modeling to data manipulation and performance analytics.
 
-- **SQL Server Fundamentals**:
-  - Databases, tables, rows, columns
-  - Primary keys and foreign keys
-  - Schema design
+- **Relational Databases with SQL Server**:
+  - Core components: Databases, Tables, Rows, and Columns.
+  - Referential integrity: Primary Keys (PKs) and Foreign Keys (FKs).
+  - Effective logical schema structuring.
 
-- **Database Setup**:
-  - Create databases and tables
-  - Configure constraints
+- **Database Initialization**:
+  - Provisioning databases and logically modeling tables.
+  - Enforcing data rules using constraints.
 
-- **CRUD Operations using SQL**:
-  - INSERT
-  - SELECT
-  - UPDATE
-  - DELETE
+- **Data Manipulation (CRUD)**:
+  - Adding records (INSERT).
+  - Retrieving records (SELECT).
+  - Modifying records (UPDATE).
+  - Removing records (DELETE).
 
-- **Tools Usage**:
-  - SQL Server Management Studio (SSMS) / Azure Data Studio
-  - AWS RDS (SQL Server) or local environment
+- **Tooling and Interfaces**:
+  - Employing SQL Server Management Studio (SSMS) or Azure Data Studio.
+  - Connecting to Amazon RDS (SQL Server engine) and local instances.
 
-- **Performance Evaluation**:
-  - Query execution time
-  - Basic execution plan analysis
-
----
-
-### Tasks Overview
-
-| Day | Task | Start Date | Completion Date | References |
-| :-: |------|:----------:|:---------------:|------------|
-|  2  | **SQL Server Fundamentals**:<br>- Database, tables, schema<br>- Primary & Foreign Keys | 09/02/2026 | 09/02/2026 | Microsoft Docs |
-|  3  | **Database Setup**:<br>- Create database<br>- Design tables and constraints | 10/02/2026 | 10/02/2026 | Microsoft Docs |
-|  4  | **CRUD Operations**:<br>- INSERT / SELECT / UPDATE / DELETE | 11/02/2026 | 11/02/2026 | Microsoft Docs |
-|  5  | **Tools & Performance**:<br>- SSMS / Azure Data Studio<br>- Query performance & execution plans | 12/02/2026 | 12/02/2026 | Microsoft Docs |
+- **Performance Analytics**:
+  - Benchmarking query response times.
+  - Deciphering basic SQL execution plans.
 
 ---
 
-### Week 6 Achievements
+### Task Breakdown
 
-#### What was accomplished
+| Day | Task Description | Started | Completed | Source Link |
+| :-: |------------------|:-------:|:---------:|-------------|
+|  2  | **SQL Core Concepts**:<br>- Table & Schema constructs<br>- PK / FK rules | 09/02/2026 | 09/02/2026 | Microsoft Docs |
+|  3  | **DB Construction**:<br>- Building bases<br>- Table generation & limits | 10/02/2026 | 10/02/2026 | Microsoft Docs |
+|  4  | **SQL CRUD execution**:<br>- INSERT/SELECT/UPDATE/DELETE queries | 11/02/2026 | 11/02/2026 | Microsoft Docs |
+|  5  | **Clients & Optimization**:<br>- SSMS / Azure Data Studio usage<br>- Speed & execution analysis | 12/02/2026 | 12/02/2026 | Microsoft Docs |
 
-- Successfully created and configured a **SQL Server database**
-- Understood **schema design, primary keys, and foreign keys**
-- Performed full **CRUD operations using SQL queries**
-- Used **SSMS / Azure Data Studio** effectively
-- Worked with **AWS RDS (SQL Server)** or local setup
-- Evaluated **query performance and execution plans**
+---
 
-#### Architecture Summary
+### Results of Week 6
 
-- **Database**: SQL Server (Relational)
-- **Schema Design**:
-  - Tables + relationships
-  - Primary key / Foreign key
-- **Access Tools**:
-  - SSMS / Azure Data Studio
-- **Performance**:
-  - Query optimization basics
-  - Execution plan analysis
+#### Milestones Reached
+
+- Seamlessly deployed and tuned a **SQL Server database environment**.
+- Mastered the principles of **table relations, primary keys, and foreign keys**.
+- Executed end-to-end **CRUD workflows via standard SQL syntax**.
+- Became proficient in navigating **SSMS and Azure Data Studio** interfaces.
+- Interacted seamlessly with both **AWS RDS databases** and local setups.
+- Conducted basic **query profiling and interpreted execution paths**.
+
+#### Architecture Key Takeaways
+
+- **Storage Engine**: SQL Server (RDBMS model).
+- **Data Modeling**:
+  - Structured entities mapped to relations.
+  - Strong relational integrity (PK/FK).
+- **Client Tooling**:
+  - SSMS / Azure Data Studio.
+- **Tuning Metrics**:
+  - Introductory query optimization.
+  - Execution plan breakdowns.

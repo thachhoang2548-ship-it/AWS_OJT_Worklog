@@ -1,63 +1,63 @@
 ---
-title: "Week 10 Worklog"
+title: "Worklog Tuần 10"
 date: 2026-03-16
 weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
 
-### Mục tiêu Tuần 10
+### Trọng tâm của Tuần 10
 
-Tuần này tập trung hoàn thiện các tính năng nghiệp vụ nâng cao, bao gồm hệ thống điểm thưởng, quản lý vi phạm và chức năng phân quyền nhằm tăng cường khả năng kiểm soát và quản lý người dùng.
+Giai đoạn này được dành riêng để rèn giũa các nghiệp vụ khó, chẳng hạn như bộ máy tính điểm thưởng, cơ chế bắt vi phạm, và chốt chặn bảo mật phân quyền nhằm thắt chặt khâu vận hành.
 
-- **Hệ thống điểm thưởng**:
-  - Thiết kế và triển khai logic tích điểm
-  - Tích hợp điểm thưởng vào luồng hoạt động người dùng
-  - Đảm bảo tính nhất quán dữ liệu
+- **Bộ máy Điểm thưởng**:
+  - Thuật toán hóa các quy tắc cộng/trừ điểm.
+  - Gài cắm event thưởng điểm vào các tương tác của khách hàng.
+  - Đối soát chặt chẽ để dữ liệu ví điểm không bị sai lệch.
 
-- **Quản lý vi phạm**:
-  - Xây dựng cơ chế phát hiện và ghi nhận vi phạm
-  - Định nghĩa quy tắc xử phạt
-  - Cung cấp công cụ cho admin giám sát
+- **Cơ chế Bắt lỗi & Phạt**:
+  - Viết logic tự động phát hiện hành vi sai chuẩn.
+  - Ban hành chế tài xử lý tương ứng với từng mức độ vi phạm.
+  - Dựng trang quản trị trực quan để admin vào gõ búa.
 
-- **Chức năng theo vai trò**:
-  - Triển khai phân quyền người dùng (RBAC)
-  - Xác định quyền cho từng vai trò
-  - Bảo mật các chức năng quan trọng
+- **Kiểm soát Truy cập (RBAC)**:
+  - Thiết lập hàng rào bảo vệ người dùng theo chức danh (Role-Based).
+  - Khoanh vùng quyền hạn của từng nhóm đối tượng cụ thể.
+  - Chặn đứng các hành vi vượt rào vào những tính năng nhạy cảm.
 
-- **Cải tiến hệ thống**:
-  - Hoàn thiện logic nghiệp vụ
-  - Tăng độ ổn định và khả năng bảo trì
-
----
-
-### Tổng quan công việc
-
-| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu |
-| :-: |----------|:------------:|:---------------:|----------|
-|  2  | **Phát triển hệ thống điểm thưởng**:<br>- Xây dựng logic tích điểm<br>- Tích hợp database | 16/03/2026 | 17/03/2026 | Nội bộ |
-|  3  | **Quản lý vi phạm**:<br>- Xây dựng tracking vi phạm<br>- Định nghĩa xử phạt | 18/03/2026 | 19/03/2026 | Nội bộ |
-|  4  | **Phân quyền người dùng**:<br>- Triển khai RBAC<br>- Gán quyền | 20/03/2026 | 21/03/2026 | Security Docs |
-|  5  | **Tích hợp & Kiểm thử**:<br>- Tích hợp các module<br>- Kiểm tra luồng hệ thống | 22/03/2026 | 23/03/2026 | Nội bộ |
-|  6  | **Tối ưu & Hoàn thiện**:<br>- Cải thiện hiệu năng<br>- Refactor code | 24/03/2026 | 25/03/2026 | Nội bộ |
+- **Đánh bóng Mã nguồn**:
+  - Luân chuyển logic nghiệp vụ sao cho hợp lý nhất.
+  - Đảm bảo app chạy bền và dễ mở rộng về sau.
 
 ---
 
-### Thành tựu Tuần 10
+### Chi tiết nhiệm vụ
 
-#### Những gì đã đạt được
+| Ngày | Chi tiết công việc | Bắt đầu | Hoàn thành | Nguồn tài liệu |
+|:----:|--------------------|:-------:|:----------:|----------------|
+|  2   | **Engine Điểm thưởng**:<br>- Viết logic ví điểm<br>- Gắn bảng vào DB | 16/03/2026 | 17/03/2026 | Nội bộ |
+|  3   | **Bắt Vi phạm**:<br>- Tạo log theo dõi sai phạm<br>- Setup luật xử phạt | 18/03/2026 | 19/03/2026 | Nội bộ |
+|  4   | **Dựng rào Phân quyền (RBAC)**:<br>- Phân bậc user<br>- Gắn quyền vào API | 20/03/2026 | 21/03/2026 | Security Docs |
+|  5   | **Nhúng Tính năng & Test**:<br>- Gom module vào app<br>- Chạy kịch bản test luồng | 22/03/2026 | 23/03/2026 | Nội bộ |
+|  6   | **Sửa đổi nội thất**:<br>- Tune lại performance<br>- Refactor mã dư thừa | 24/03/2026 | 25/03/2026 | Nội bộ |
 
-- Hoàn thành hệ thống **điểm thưởng**
-- Xây dựng module **quản lý vi phạm** đầy đủ
-- Áp dụng thành công **phân quyền RBAC**
-- Đảm bảo kiểm soát truy cập an toàn cho hệ thống
-- Cải thiện logic và khả năng bảo trì
-- Hoàn tất tích hợp và kiểm thử các tính năng mới
+---
 
-#### Tóm tắt kiến trúc
+### Thành quả Tuần 10
 
-- **Logic nghiệp vụ**: Module điểm thưởng & vi phạm
-- **Bảo mật**: Phân quyền RBAC
-- **Cơ sở dữ liệu**: Cập nhật schema cho điểm và vi phạm
-- **Luồng xử lý**: Người dùng → Backend → Database → Admin giám sát
-- **Giai đoạn**: Hoàn thiện tính năng / Chuẩn bị tích hợp
+#### Cột mốc đạt được
+
+- Chạy đà thành công module **Ví điểm thưởng**.
+- Cất nóc cỗ máy **Quản lý hành vi sai phạm** kèm khả năng tự động truy vết.
+- Cài cắm lớp khiên **Phân quyền dựa trên vai trò (RBAC)** vào tận lõi ứng dụng.
+- Bịt kín các kẽ hở phân quyền vào những tính năng Admin.
+- Nâng bật sự mạch lạc trong luồng chạy của App.
+- Chắp nối thành công các chức năng mới tinh này vào phiên bản chính thống.
+
+#### Định hướng Kiến trúc
+
+- **Nghiệp vụ cốt lõi**: Cơ chế Thưởng điểm & Bắt phạt.
+- **Tường lửa Nội bộ**: Chốt chặn bằng phân quyền người dùng (RBAC).
+- **Kho dữ liệu (Database)**: Thiết kế thêm các entity chứa điểm và biên bản vi phạm.
+- **Luồng dữ liệu (Flow)**: Thao tác của User → Bộ lọc Backend → Ghi Database → Hiển thị cho Admin.
+- **Giai đoạn (Phase)**: Chốt hạ Tính năng nâng cao.

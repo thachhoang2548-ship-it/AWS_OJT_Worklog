@@ -6,58 +6,58 @@ chapter: false
 pre: " <b> 1.10. </b> "
 ---
 
-### Week 10 Objectives
+### Targets for Week 10
 
-This week focused on completing advanced business features, including the reward points system, violation management, and role-based functionalities to enhance system control and user management.
+This week highlighted the integration of elaborate business rules, specifically the loyal rewards engine, the penalty framework, and comprehensive access control to fortify system governance.
 
-- **Reward Points System**:
-  - Design and implement point accumulation logic
-  - Integrate rewards into user workflows
-  - Ensure data consistency and tracking
+- **Loyalty & Reward Engine**:
+  - Architect and code the logic for point allocation.
+  - Embed the reward triggers seamlessly into user activities.
+  - Maintain rigorous transactional accuracy for point ledgers.
 
-- **Violation Management**:
-  - Build violation detection and logging mechanisms
-  - Define penalty rules and handling processes
-  - Provide admin tools for monitoring violations
+- **Infraction & Penalty Management**:
+  - Code listeners to capture system rule violations.
+  - Enforce predefined penalties on non-compliant users.
+  - Develop dashboard views for administrative oversight.
 
-- **Role-Based Functionalities**:
-  - Implement role-based access control (RBAC)
-  - Define permissions for different user roles
-  - Secure sensitive operations based on roles
+- **Access Management (RBAC)**:
+  - Enforce Role-Based Access Control throughout the application.
+  - Map specific permissions to individual user profiles.
+  - Block unauthorized endpoints to secure administrative operations.
 
-- **System Enhancement**:
-  - Refine business logic
-  - Improve system reliability and maintainability
-
----
-
-### Tasks Overview
-
-| Day | Task | Start Date | Completion Date | References |
-| :-: |------|:----------:|:---------------:|------------|
-|  2  | **Reward System Development**:<br>- Implement point logic<br>- Database integration | 16/03/2026 | 17/03/2026 | Internal |
-|  3  | **Violation Management**:<br>- Build violation tracking<br>- Define penalty rules | 18/03/2026 | 19/03/2026 | Internal |
-|  4  | **Role-Based Access Control**:<br>- Implement RBAC<br>- Assign permissions | 20/03/2026 | 21/03/2026 | Security Docs |
-|  5  | **Integration & Testing**:<br>- Integrate features<br>- Validate workflows | 22/03/2026 | 23/03/2026 | Internal |
-|  6  | **Optimization & Refinement**:<br>- Improve performance<br>- Refactor code | 24/03/2026 | 25/03/2026 | Internal |
+- **System Tuning**:
+  - Polish underlying business flows.
+  - Refactor critical paths for better long-term upkeep.
 
 ---
 
-### Week 10 Achievements
+### Task Breakdown
 
-#### What was accomplished
+| Day | Task Description | Started | Completed | Source Link |
+| :-: |------------------|:-------:|:---------:|-------------|
+|  2  | **Reward Logic Creation**:<br>- Point accrual programming<br>- DB schema updates | 16/03/2026 | 17/03/2026 | Internal |
+|  3  | **Penalty Enforcement**:<br>- Violation logging<br>- Auto-penalty logic | 18/03/2026 | 19/03/2026 | Internal |
+|  4  | **RBAC Implementation**:<br>- Role schema design<br>- Setting up endpoint guards | 20/03/2026 | 21/03/2026 | Security Docs |
+|  5  | **System Integration**:<br>- Merging new modules<br>- QA the workflow | 22/03/2026 | 23/03/2026 | Internal |
+|  6  | **Code Refactoring**:<br>- Speed optimizations<br>- Architectural cleanups | 24/03/2026 | 25/03/2026 | Internal |
 
-- Successfully implemented the **Reward Points System**
-- Developed a **Violation Management module** with tracking and handling mechanisms
-- Applied **Role-Based Access Control (RBAC)** across the system
-- Ensured secure and structured access to system features
-- Improved overall system logic and maintainability
-- Completed integration and validation of new features
+---
 
-#### Architecture Summary
+### Results of Week 10
 
-- **Business Logic**: Reward & Violation modules
-- **Security Layer**: Role-Based Access Control (RBAC)
-- **Database**: Updated schemas for points and violations
-- **Flow**: User Actions → Backend Processing → Database → Admin Monitoring
-- **Stage**: Feature Completion / Pre-Integration
+#### Milestones Reached
+
+- Engineered a fully functional **Loyalty & Reward point ledger**.
+- Deployed the **Violation Handling** toolkit complete with automated tracking.
+- Secured the platform by infusing **Role-Based Access Control (RBAC)**.
+- Established strict, role-aware guardrails around sensitive features.
+- Elevated code quality and system logic stability.
+- Merged the new business functionalities and validated their accuracy.
+
+#### Architecture Key Takeaways
+
+- **Application Logic**: Loyalty Points & Disciplinary infractions.
+- **Access Guardrails**: Identity and Role-centric checking (RBAC).
+- **Data Persistance**: Modified schemas accommodating points and rule logs.
+- **Data Pathway**: End-User Input → Server Logic + RBAC Check → Database Log → Admin Dashboard.
+- **Current Phase**: Advanced Features Finalization.

@@ -9,11 +9,11 @@ chapter: false
 
 ### Student Information:
 
-&emsp; **Full Name:** Vu Minh Quang
+&emsp; **Full Name:** Hoang Bao Thach
 
-&emsp; **Phone Number:** 0378554725
+&emsp; **Phone Number:** 0373111370
 
-&emsp; **Email:** vminhquang05@gmail.com
+&emsp; **Email:** thach2548@gmail.com
 
 &emsp; **University:** FPT Univeristy
 

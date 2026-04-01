@@ -6,75 +6,74 @@ chapter: false
 pre: " <b> 1.1. </b> "
 ---
 
-### Mục tiêu Tuần 1
+### Trọng tâm của Tuần 1
 
-Tuần này tập trung vào việc làm quen với AWS, thiết lập môi trường ban đầu và xây dựng nền tảng về quản lý tài khoản và chi phí. Các mục tiêu chính bao gồm:
+Mục đích chính của tuần này là xây dựng kiến thức nền tảng về AWS, chuẩn bị môi trường thực hành và nắm bắt các khái niệm cơ bản về bảo mật tài khoản cũng như theo dõi chi phí. Các trọng tâm cụ thể gồm:
 
-- **Tìm hiểu tổng quan AWS**:
-  - Hiểu cách AWS hoạt động và mô hình Cloud
-  - Tìm hiểu các dịch vụ cốt lõi (EC2, S3, IAM, VPC,...)
+- **Nắm bắt nền tảng AWS**:
+  - Khám phá cơ chế hoạt động và các mô hình điện toán đám mây.
+  - Điểm qua một số dịch vụ trọng yếu (EC2, S3, IAM, VPC, v.v.).
 
-- **Làm quen môi trường lab**:
-  - Hiểu cấu trúc bài lab
-  - Làm quen với quy trình thực hành
+- **Khám phá cấu trúc Lab**:
+  - Phác họa bức tranh tổng thể về cách bố trí các bài lab.
+  - Làm quen luồng thao tác thực hành (hands-on).
 
-- **Làm việc nhóm**:
-  - Lập nhóm
-  - Làm quen và giao lưu với các thành viên
+- **Phát triển nhóm**:
+  - Tổ chức và hình thành một nhóm làm việc.
+  - Tương tác với các thành viên khác để tăng cường sự gắn kết.
 
-- **Thiết lập tài khoản AWS**:
-  - Tạo tài khoản AWS (Free Tier)
-  - Bật **MFA cho Root User**
-  - Tạo IAM User quản trị
-  - Tạo Group và gán quyền Administrator
-  - Làm quen AWS Console
+- **Khởi tạo tài khoản AWS**:
+  - Đăng ký một tài khoản AWS mới thuộc gói Free Tier.
+  - Kích hoạt **MFA cho Root User** để đảm bảo an toàn.
+  - Thiết lập một người dùng IAM có quyền quản trị (Admin).
+  - Tạo nhóm Admin với các policy tương ứng.
+  - Trải nghiệm giao diện hệ thống AWS Management Console.
 
-- **Quản lý chi phí với AWS Budgets**:
-  - Tạo Cost Budget
-  - Tạo Usage Budget
-  - Tạo Reservation Budget
-  - Tạo Savings Plans Budget
-  - Cấu hình cảnh báo
-  - Dọn dẹp tài nguyên
-
----
-
-### Tổng quan công việc
-
-| Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
-|:----:|----------|:------------:|:---------------:|-------------------|
-|  2   | **Tìm hiểu AWS cơ bản**:<br>- Tổng quan AWS<br>- Mô hình Cloud<br>- Các dịch vụ chính | 05/01/2026 | 05/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-|  3   | **Làm quen Lab**:<br>- Cấu trúc bài lab<br>- Quy trình thực hành | 06/01/2026 | 06/01/2026 | [AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj/) |
-|  4   | **Làm việc nhóm**:<br>- Lập nhóm<br>- Làm quen thành viên<br>- Định hướng học tập | 07/01/2026 | 07/01/2026 | Nội bộ |
-|  5   | **Thiết lập AWS & IAM**:<br>- Tạo account<br>- Bật MFA<br>- Tạo IAM User + Admin Group<br>- Làm quen Console | 08/01/2026 | 08/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-|  6   | **AWS Budgets**:<br>- Tạo Cost/Usage/Reservation/Savings Plans Budget<br>- Cấu hình cảnh báo<br>- Dọn dẹp tài nguyên | 09/01/2026 | 09/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+- **Giám sát ngân sách & Chi phí**:
+  - Xây dựng Cost Budget.
+  - Thiết lập Usage Budget.
+  - Xác định các Reservation và Savings Plans Budget.
+  - Cài đặt hệ thống cảnh báo (alert).
+  - Loại bỏ các tài nguyên không dùng đến.
 
 ---
 
-### Kết quả đạt được
+### Chi tiết nhiệm vụ
 
-#### Những gì đã hoàn thành
+| Ngày | Chi tiết công việc | Bắt đầu | Hoàn thành | Nguồn tài liệu |
+|:----:|--------------------|:-------:|:----------:|----------------|
+|  2   | **Khái niệm AWS cốt lõi**:<br>- Giới thiệu AWS<br>- Các mô hình triển khai Cloud<br>- Dịch vụ cơ sở | 05/01/2026 | 05/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+|  3   | **Định hướng Lab**:<br>- Cấu trúc hệ thống lab<br>- Phương pháp tiếp cận thực hành | 06/01/2026 | 06/01/2026 | [AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj/) |
+|  4   | **Gắn kết đội nhóm**:<br>- Xây dựng đội ngũ<br>- Giao lưu thành viên<br>- Đề ra phương hướng chung | 07/01/2026 | 07/01/2026 | Nội bộ |
+|  5   | **Quản lý danh tính (IAM)**:<br>- Khởi tạo tài khoản<br>- Bật xác thực hai bước (MFA)<br>- Tạo User/Group quản trị<br>- Làm quen giao diện điều khiển | 08/01/2026 | 08/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+|  6   | **Kiểm soát chi phí**:<br>- Định nghĩa các ngân sách (Budgets)<br>- Lên kịch bản cảnh báo<br>- Dọn dẹp tài nguyên rác | 09/01/2026 | 09/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
 
-- Hiểu rõ tổng quan về **AWS** và các dịch vụ chính
-- Nắm được cách triển khai và thực hành các **bài lab**
-- Tham gia **làm việc nhóm**, kết nối với các thành viên
-- Tạo thành công tài khoản AWS với **Free Tier (~$100 credit)**
-- Bật **MFA cho Root User** để tăng bảo mật
-- Tạo **IAM User riêng** để tránh sử dụng Root Account
-- Làm quen với **AWS Console**
-- Thiết lập **AWS Budgets** để kiểm soát chi phí
-- Cấu hình **cảnh báo chi phí** và dọn dẹp tài nguyên
+---
 
-#### Tóm tắt nguyên tắc
+### Thành quả Tuần 1
 
-- **Bảo mật**:
-  - Không dùng Root cho daily work
-  - Luôn bật MFA
+#### Cột mốc đạt được
 
-- **Chi phí**:
-  - Theo dõi bằng AWS Budgets
-  - Alert khi vượt ngưỡng
+- Đạt được hiểu biết vững chắc về **các khái niệm cốt lõi của AWS**.
+- Tích lũy đủ kỹ năng cần thiết để tiếp cận và xử lý **các bài thực hành lab**.
+- Chính thức thành lập **đội nhóm học tập** và đi vào hoạt động chung.
+- Đăng ký tài khoản AWS thành công với **quyền lợi Free Tier (khoảng $100)**.
+- Thắt chặt an ninh bằng việc kích hoạt **MFA cho Root Account**.
+- Khởi tạo xong **người dùng IAM quản trị** chuyên biệt.
+- Sử dụng thành thạo điều hướng cơ bản trên **AWS Management Console**.
+- Áp dụng **AWS Budgets** để giám sát mức chi tiêu trên nền tảng.
+- Bật **cảnh báo chi phí** đồng thời thực hiện thao tác xóa tài nguyên thừa.
 
-- **Học tập**:
-  - Thực hành lab
-  - Làm việc nhóm
+#### Bài học kinh nghiệm
+
+- **Tiêu chuẩn Bảo mật**:
+  - Hạn chế tối đa sử dụng Root Account cho tác vụ hàng ngày.
+  - Đảm bảo MFA luôn được áp dụng cho các tài khoản có đặc quyền.
+
+- **Quản lý mức sử dụng**:
+  - Thường xuyên theo dõi resource tiêu thụ thông qua AWS Budgets.
+  - Thiết lập ngưỡng alert để tránh các khoản phí phát sinh ngoài ý muốn.
+
+- **Định hướng học hỏi**:
+  - Tích cực thực hành thao tác (hands-on).
+  - Giữ kết nối và trao đổi thường xuyên trong nhóm.

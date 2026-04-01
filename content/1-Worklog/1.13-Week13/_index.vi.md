@@ -6,59 +6,59 @@ chapter: false
 pre: " <b> 1.13. </b> "
 ---
 
-### Mục tiêu tuần 13
+### Trọng tâm của Tuần 13
 
-Tuần này tập trung vào việc theo dõi hệ thống sau khi go-live, tối ưu hiệu năng, sửa lỗi và thu thập phản hồi từ người dùng thực tế.
+Tuần cuối cùng xoay quanh các nhiệm vụ hậu go-live (Day-2 Operations): trực chiến theo dõi tình trạng server, siết lại hiệu năng, vá lỗ hổng nhỏ và lắng nghe tiếng nói của những tập khách hàng đầu tiên.
 
-- **Giám sát sau triển khai**:
-  - Theo dõi hiệu năng và uptime hệ thống
-  - Phân tích log và phát hiện bất thường
-  - Đảm bảo hệ thống ổn định khi có người dùng thật
+- **Trực chiến Giám sát**:
+  - Để mắt liên tục tới các chỉ số sức khỏe và thời gian uptime.
+  - Đọc log hệ thống hàng ngày để phát hiện mầm mống lỗi.
+  - Cam kết hệ thống không sập tải khi User thật tràn vào.
 
-- **Tối ưu hiệu năng**:
-  - Tối ưu truy vấn database và tốc độ API
-  - Cải thiện tốc độ tải frontend
-  - Giảm độ trễ hệ thống
+- **Siết mượt Hiệu năng**:
+  - Tút tát lại mớ câu lệnh query và giảm tải cho API.
+  - Tối ưu hóa thời gian load trang bên phía Frontend.
+  - Kéo độ phản hồi tĩnh/động xuống mức lý tưởng nhất.
 
-- **Sửa lỗi & cải tiến**:
-  - Xác định và sửa lỗi từ người dùng báo cáo
-  - Cải thiện UI/UX dựa trên thực tế sử dụng
-  - Refactor các phần nhỏ để dễ maintain
+- **Vá Bug và Cải tiến Nhỏ**:
+  - Tiếp nhận và xử lý nóng những vấn đề do User phản ánh.
+  - Xoay trục thiết kế UX/UI cho thuận với thói quen người dùng thực tế.
+  - Gọn gàng hóa các đoạn code cũ (Refactor) để dễ bề bảo trì.
 
-- **Thu thập phản hồi người dùng**:
-  - Thu thập feedback từ người dùng ban đầu
-  - Phân tích hành vi sử dụng hệ thống
-  - Lên kế hoạch cải tiến cho các phiên bản tiếp theo
-
----
-
-### Tổng quan công việc
-
-| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu |
-| :-: |-----------|:------------:|:---------------:|----------|
-|  2  | **Giám sát hệ thống**:<br>- Theo dõi log & metrics<br>- Kiểm tra uptime | 06/04/2026 | 06/04/2026 | CloudWatch |
-|  3  | **Tối ưu hiệu năng**:<br>- Tối ưu query<br>- Cải thiện tốc độ API | 07/04/2026 | 08/04/2026 | Internal |
-|  4  | **Sửa lỗi**:<br>- Fix bug<br>- Cải thiện UI/UX | 09/04/2026 | 10/04/2026 | Internal |
-|  5  | **Phân tích phản hồi**:<br>- Thu thập feedback<br>- Phân tích hành vi | 11/04/2026 | 11/04/2026 | Internal |
-|  6  | **Lập kế hoạch cải tiến**:<br>- Định hướng nâng cấp<br>- Cập nhật roadmap | 12/04/2026 | 12/04/2026 | Internal |
+- **Lắng nghe Phản hồi (Feedback)**:
+  - Gom nhặt những review từ những người dùng trung thành đầu tiên.
+  - Diễn dịch mô hình luồng thao tác của User.
+  - Phác mâm cỗ tính năng ưu tiên để nạp vào Sprint sắp tới.
 
 ---
 
-### Thành tựu tuần 13
+### Chi tiết nhiệm vụ
 
-#### Đã đạt được
+| Ngày | Chi tiết công việc | Bắt đầu | Hoàn thành | Nguồn tài liệu |
+|:----:|--------------------|:-------:|:----------:|----------------|
+|  2   | **Khám sức khỏe App**:<br>- Lọc Log truy cập<br>- Check độ ổn định Live | 06/04/2026 | 06/04/2026 | CloudWatch |
+|  3   | **Ép xung Ứng dụng**:<br>- Rút ngắn tốc độ Query<br>- Thông nòng API | 07/04/2026 | 08/04/2026 | Nội bộ |
+|  4   | **Dọn Bug**:<br>- Sửa lỗi khẩn cấp<br>- Gọt lại dăm ba màn hình | 09/04/2026 | 10/04/2026 | Nội bộ |
+|  5   | **Nghiên cứu Thị hiếu**:<br>- Lấy Feedback<br>- Đo lường Data thực | 11/04/2026 | 11/04/2026 | Nội bộ |
+|  6   | **Lên Bản đồ V-Next**:<br>- Gọi tên loạt nâng cấp mới<br>- Ghi Roadmap cho App | 12/04/2026 | 12/04/2026 | Nội bộ |
 
-- Theo dõi hệ thống sau khi **go-live chính thức**
-- Phát hiện và xử lý các lỗi ban đầu từ người dùng
-- Cải thiện hiệu năng và độ phản hồi của hệ thống
-- Nâng cao trải nghiệm người dùng
-- Thu thập dữ liệu quan trọng cho các cải tiến tiếp theo
-- Thiết lập quy trình vận hành sau triển khai
+---
 
-#### Tổng quan kiến trúc
+### Thành quả Tuần 13
 
-- **Giai đoạn**: Sau triển khai / Vận hành
-- **Giám sát**: Theo dõi liên tục (log, metrics, cảnh báo)
-- **Tối ưu**: Đã áp dụng tuning hiệu năng
-- **Vòng lặp cải tiến**: Người dùng → Feedback → Cải tiến → Hệ thống
-- **Trạng thái**: Ổn định và tiếp tục cải thiện
+#### Cột mốc đạt được
+
+- Chăm sóc tốt cơ sở hạ tầng sau sự kiện **bấm nút Go-live**.
+- Săn và tiêu diệt loạt bug "cỏ" bị phát hiện bởi người dùng.
+- Trả về kết quả vượt trội ở khoản chịu tải và bức tốc truy vấn.
+- Giao diện được o bế trở nên mượt mà, chiều lòng người xài hơn.
+- Thu thập một rổ dữ liệu đáng giá phục vụ cho các bản vá sau này.
+- Hình thành bộ quy chuẩn vận hành (Ops Workflow) vững vàng.
+
+#### Định hướng Kiến trúc
+
+- **Trạng thái (Phase)**: Duy trì Sự sống (Maintenance) / Hậu Go-Live.
+- **Canh gác (Monitoring)**: Trực hệ thống 24/7 (Log, Mốc metric, Báo động).
+- **Trùng tu (Optimization)**: Bảo dưỡng sức mạnh cốt lõi.
+- **Trọng lực Phát triển**: User trải nghiệm → Góp ý hòm thư → Product nâng cấp → Ra mắt tính năng mới.
+- **Tổng Kết**: Chạy êm, ổn định, tiềm năng phình to vô cực.

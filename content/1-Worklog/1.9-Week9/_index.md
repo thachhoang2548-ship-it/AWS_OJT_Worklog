@@ -6,62 +6,62 @@ chapter: false
 pre: " <b> 1.9. </b> "
 ---
 
-### Week 9 Objectives
+### Targets for Week 9
 
-This week focused on test deployment, end-to-end system validation, and fixing issues discovered during implementation and testing.
+This week centered around trial deployments, holistic system testing, and remediating bugs identified during the initial staging phase.
 
-- **System Deployment**:
-  - Deploy the application to a real environment on EC2
-  - Configure related services such as RDS, S3, and AWS Map
-  - Verify connectivity between system components
+- **Infrastructure Deployment**:
+  - Spin up the application in a staging environment on Amazon EC2.
+  - Bind the application to auxiliary services like RDS, S3, and AWS Map.
+  - Validate network communication across all architectural tiers.
 
-- **System Testing**:
-  - Test the main application flows
-  - Validate the UI and user experience
-  - Verify data flow between frontend and backend
+- **Quality Assurance Testing**:
+  - Execute test cases for core business workflows.
+  - Scrutinize the user interface and overall experience.
+  - Trace data exchanges between the client and server.
 
-- **Bug Fixing and Optimization**:
-  - Fix issues found during testing
-  - Improve code structure and system stability
-  - Optimize performance where needed
+- **Troubleshooting and Refactoring**:
+  - Patch defects discovered during QA cycles.
+  - Refactor code segments to boost system resilience.
+  - Implement necessary performance tweaks.
 
-- **System Readiness**:
-  - Ensure the application runs reliably
-  - Prepare for demo or pre-release validation
-
----
-
-### Tasks Overview
-
-| Day | Task | Start Date | Completion Date | References |
-| :-: |------|:----------:|:---------------:|------------|
-|  2  | **Deployment Setup**:<br>- Deploy app to EC2<br>- Configure environment | 09/03/2026 | 09/03/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-|  3  | **System Testing**:<br>- Test main features<br>- Check data flow | 10/03/2026 | 10/03/2026 | Internal |
-|  4  | **Bug Fixing**:<br>- Identify issues<br>- Debug the system | 11/03/2026 | 11/03/2026 | Internal |
-|  5  | **Optimization**:<br>- Improve code quality<br>- Tune performance | 12/03/2026 | 12/03/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-|  6  | **Final Testing**:<br>- Revalidate the system<br>- Prepare demo | 13/03/2026 | 13/03/2026 | Internal |
+- **Pre-launch Verification**:
+  - Guarantee the application's operational stability.
+  - Setup the environment for formal demonstration or soft release.
 
 ---
 
-### Week 9 Achievements
+### Task Breakdown
 
-#### What was accomplished
+| Day | Task Description | Started | Completed | Source Link |
+| :-: |------------------|:-------:|:---------:|-------------|
+|  2  | **Staging Deployment**:<br>- EC2 hosting configuration<br>- Environment variables setup | 09/03/2026 | 09/03/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+|  3  | **E2E Testing**:<br>- Feature verification<br>- Data pipeline checks | 10/03/2026 | 10/03/2026 | Internal |
+|  4  | **Defect Resolution**:<br>- Log analysis<br>- Bug fixing | 11/03/2026 | 11/03/2026 | Internal |
+|  5  | **Code Optimization**:<br>- Architectural refactoring<br>- Speed enhancements | 12/03/2026 | 12/03/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+|  6  | **Demo Prep**:<br>- Final system check<br>- Demo scenario planning | 13/03/2026 | 13/03/2026 | Internal |
 
-- Successfully deployed the application to **Amazon EC2**
-- Verified stable connections with:
+---
+
+### Results of Week 9
+
+#### Milestones Reached
+
+- Seamlessly migrated the application code to **Amazon EC2**.
+- Confirmed solid integrations with crucial AWS resources:
   - **Amazon RDS**
   - **Amazon S3**
   - **AWS Map**
-- Completed end-to-end testing of the main system flows
-- Fixed issues found during testing and debugging
-- Improved performance and overall user experience
-- Brought the system to a **demo-ready** state
+- Conducted exhaustive end-to-end testing across primary user journeys.
+- Successfully resolved all critical bugs flagged during the QA phase.
+- Elevated system performance and smoothed out UX friction points.
+- Achieved a stable, **demo-ready** application state.
 
-#### Architecture Summary
+#### Architecture Key Takeaways
 
-- **Compute**: EC2 (application deployment)
-- **Database**: RDS (SQL Server)
-- **Storage**: S3 (static files)
-- **Map**: AWS Map (location service)
-- **Flow**: Frontend → Backend → AWS Services
-- **Stage**: Testing / Pre-production
+- **Compute Runtime**: EC2 (hosting environment).
+- **Persistent Data**: RDS running SQL Server.
+- **Static Asset Storage**: S3.
+- **Mapping Utilities**: AWS Map.
+- **Data Pipeline**: Client UI → Server Logic → AWS Managed Services.
+- **Current Phase**: Quality Assurance / Staging Deployment.

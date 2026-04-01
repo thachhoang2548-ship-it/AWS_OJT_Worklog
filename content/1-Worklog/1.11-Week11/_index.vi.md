@@ -6,59 +6,59 @@ chapter: false
 pre: " <b> 1.11. </b> "
 ---
 
-### Mục tiêu Tuần 11
+### Trọng tâm của Tuần 11
 
-Tuần này tập trung vào kiểm thử tích hợp, tối ưu hiệu năng, xác thực hạ tầng và tăng cường bảo mật cho môi trường production nhằm đảm bảo hệ thống sẵn sàng triển khai.
+Trọng điểm tuần này là khâu rà soát tích hợp, đẩy cao hiệu năng, nghiệm thu hạ tầng, và gia cố lớp áo giáp bảo mật (hardening) để ứng dụng hoàn toàn sẵn sàng ra trận trên môi trường production.
 
-- **Kiểm thử tích hợp**:
-  - Thực hiện kiểm thử end-to-end toàn hệ thống
-  - Xác thực luồng dữ liệu giữa các module
-  - Phát hiện và xử lý lỗi tích hợp
+- **Kiểm định Chéo (Integration Testing)**:
+  - Khởi chạy các kịch bản test end-to-end trên toàn bộ nền tảng.
+  - Thẩm định luồng thông tin chạy giữa các vi mạch chức năng.
+  - Vá kịp thời các kẽ hở phát sinh khi ráp nối.
 
-- **Tối ưu hiệu năng**:
-  - Tối ưu truy vấn database và logic backend
-  - Cải thiện tốc độ phản hồi
-  - Giảm tải tài nguyên hệ thống
+- **Ép xung Hiệu năng**:
+  - Gọt giũa lại các câu lệnh truy vấn DB và khối logic xử lý chậm.
+  - Kéo giảm độ trễ, tăng vọt ngưỡng chịu tải của server.
+  - Tối ưu hóa việc ngốn RAM/CPU.
 
-- **Xác thực hạ tầng**:
-  - Kiểm tra cấu hình EC2, RDS, S3
-  - Đảm bảo khả năng mở rộng và ổn định
-  - Kiểm tra cơ chế failover
+- **Nghiệm thu Hạ tầng Đám mây**:
+  - Check lại toàn bộ thông số trên máy ảo EC2, RDS, S3.
+  - Khẳng định khả năng phình to (scale) và độ liền mạch.
+  - Diễn tập kịch bản sập nguồn và tự phục hồi (failover).
 
-- **Hardening môi trường production**:
-  - Áp dụng best practices bảo mật
-  - Cấu hình biến môi trường và secrets
-  - Tăng cường logging và kiểm soát truy cập
-
----
-
-### Tổng quan công việc
-
-| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu |
-| :-: |----------|:------------:|:---------------:|----------|
-|  2  | **Kiểm thử tích hợp**:<br>- Test end-to-end<br>- Kiểm tra luồng hệ thống | 23/03/2026 | 24/03/2026 | Nội bộ |
-|  3  | **Sửa lỗi**:<br>- Fix lỗi tích hợp<br>- Debug hệ thống | 25/03/2026 | 26/03/2026 | Nội bộ |
-|  4  | **Tối ưu hiệu năng**:<br>- Tối ưu query<br>- Cải thiện tốc độ | 27/03/2026 | 28/03/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-|  5  | **Xác thực hạ tầng**:<br>- Kiểm tra dịch vụ<br>- Test độ ổn định | 29/03/2026 | 30/03/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-|  6  | **Hardening bảo mật**:<br>- Cấu hình bảo mật<br>- Thiết lập logging | 31/03/2026 | 01/04/2026 | Security Docs |
+- **Gia cố Bảo mật Production**:
+  - Ốp chuẩn các tiêu chuẩn bảo mật khắt khe nhất.
+  - Khóa kín các biến môi trường và chìa khóa (secrets).
+  - Thắt chặt quyền ra vào cổng và bung rộng khả năng ghi log.
 
 ---
 
-### Thành tựu Tuần 11
+### Chi tiết nhiệm vụ
 
-#### Những gì đã đạt được
+| Ngày | Chi tiết công việc | Bắt đầu | Hoàn thành | Nguồn tài liệu |
+|:----:|--------------------|:-------:|:----------:|----------------|
+|  2   | **Tích hợp & Test**:<br>- Quét E2E rà soát lỗi<br>- Duyệt lại luồng dữ liệu | 23/03/2026 | 24/03/2026 | Nội bộ |
+|  3   | **Fix Lỗi**:<br>- Xử lý ngẽn cổ chai<br>- Đưa app về trạng thái ổn định | 25/03/2026 | 26/03/2026 | Nội bộ |
+|  4   | **Tối ưu Tốc độ**:<br>- Tune lại Query<br>- Ép thời gian phản hồi | 27/03/2026 | 28/03/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+|  5   | **Chốt Hạ tầng**:<br>- Kiểm duyệt Service AWS<br>- Giả lập tải thực tế | 29/03/2026 | 30/03/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+|  6   | **Thắt chặt An ninh**:<br>- Áp rule bảo mật<br>- Bật tool cào log | 31/03/2026 | 01/04/2026 | Security Docs |
 
-- Hoàn thành kiểm thử tích hợp toàn hệ thống
-- Sửa các lỗi quan trọng và tăng độ ổn định
-- Tối ưu hiệu năng backend và database
-- Xác thực hạ tầng cloud sẵn sàng production
-- Áp dụng hardening bảo mật cho hệ thống
-- Sẵn sàng cho triển khai chính thức
+---
 
-#### Tóm tắt kiến trúc
+### Thành quả Tuần 11
 
-- **Testing**: Kiểm thử tích hợp & end-to-end
-- **Hiệu năng**: Backend & database được tối ưu
-- **Hạ tầng**: AWS (EC2, RDS, S3)
-- **Bảo mật**: Hardening, logging, config
-- **Giai đoạn**: Pre-production / Chuẩn bị release
+#### Cột mốc đạt được
+
+- Chạy thông thạo quy trình **kiểm thử tích hợp cặn kẽ** mọi ngóc ngách.
+- Tiêu diệt các bug nghiêm trọng nhất, trả lại sự mượt mà cho hệ thống.
+- Ép xung thành công dàn Backend và trạm dữ liệu RDS.
+- Dán tem chất lượng cho dàn cấu hình **hạ tầng cloud**.
+- Đắp thêm **lớp giáp bảo mật tiêu chuẩn Production**.
+- Đưa hệ thống vào vạch xuất phát, đợi lệnh là có thể Go-live.
+
+#### Định hướng Kiến trúc
+
+- **Lớp Kiểm định (QA)**: Đánh trận giả E2E và Tích hợp.
+- **Chỉ số Tốc độ**: Tối giản hóa thời gian tiêu hao của DB & Backend.
+- **Khung Hạ tầng**: AWS (EC2, RDS, S3) đã kinh qua sát hạch.
+- **Tiêu chuẩn An ninh**: Hardening triệt để, Log chi tiết, Ẩn Config tốt.
+- **Giai đoạn (Phase)**: Pre-production / Đóng gói chờ cất cánh.

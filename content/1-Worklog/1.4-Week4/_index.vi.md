@@ -6,84 +6,84 @@ chapter: false
 pre: " <b> 1.4. </b> "
 ---
 
-### Mục tiêu Tuần 4
+### Trọng tâm của Tuần 4
 
-Tuần này tập trung vào việc vận hành hệ thống theo mô hình thực tế (production-ready), bao gồm tự động hóa, bảo mật, độ tin cậy, hiệu năng và tối ưu chi phí dựa trên AWS Well-Architected Framework.
+Tuần này hướng đến việc thiết lập và vận hành một hệ thống đạt tiêu chuẩn môi trường sản xuất (production-ready). Phạm vi bao trùm các khía cạnh về tự động hóa, an toàn thông tin, tính sẵn sàng cao, hiệu suất xử lý và tiết kiệm chi phí thuận theo triết lý của AWS Well-Architected Framework.
 
-- **Vận hành (Operational Excellence)**:
-  - Tự động hóa tác vụ bằng AWS Lambda (tắt EC2, gửi thông báo Slack)
-  - Xây dựng hệ thống giám sát với CloudWatch và Grafana
-  - Quản lý tài nguyên EC2 dựa trên Tags
-  - Tự động hóa vận hành với AWS Systems Manager
+- **Tối ưu Vận hành (Operational Excellence)**:
+  - Dùng AWS Lambda để thiết lập các tác vụ tự động (ví dụ: tự ngắt EC2, đẩy cảnh báo sang nền tảng Slack).
+  - Phác họa hệ thống đo lường, giám sát thông qua CloudWatch kết hợp Grafana.
+  - Phân loại tài nguyên máy ảo EC2 thông qua hệ thống Tags.
+  - Đẩy mạnh tự động hóa quy trình quản trị qua AWS Systems Manager.
 
-- **Bảo mật (Security)**:
-  - Áp dụng IAM Permission Boundary để giới hạn quyền
-  - Kiểm tra bảo mật với AWS Security Hub
-  - Bảo vệ ứng dụng bằng AWS WAF
+- **An toàn thông tin (Security)**:
+  - Thiếp lập rào cản phân quyền bằng IAM Permission Boundary.
+  - Dò phòng hổng và kiểm soát rủi ro thông qua AWS Security Hub.
+  - Tích hợp lớp tường lửa bảo vệ các ứng dụng web với AWS WAF.
 
-- **Độ tin cậy (Reliability)**:
-  - Thiết lập backup với AWS Backup
-  - Kết nối VPC bằng VPC Peering
-  - Quản lý mạng tập trung với Transit Gateway
+- **Độ ổn định, sẵn sàng (Reliability)**:
+  - Lên chiến lược phòng chống mất mát dữ liệu nhờ AWS Backup.
+  - Giao tiếp xuyên mạng VPC qua cơ chế VPC Peering.
+  - Quy hoạch kết nối liên mạng đồng bộ sử dụng Transit Gateway.
 
-- **Hiệu năng (Performance Efficiency)**:
-  - Container hóa ứng dụng bằng Docker và triển khai trên ECS
-  - Xây dựng CI/CD pipeline với CodePipeline
-  - Lưu trữ dữ liệu với File Storage Gateway
+- **Năng suất hoạt động (Performance Efficiency)**:
+  - Đóng gói phần mềm theo cấu trúc Docker và đưa lên nền tảng ECS.
+  - Kiến tạo quy trình triển khai liên tục (CI/CD) với CodePipeline.
+  - Mở rộng năng lực dữ liệu với giải pháp File Storage Gateway.
 
-- **Tối ưu chi phí (Cost Optimization)**:
-  - Áp dụng Savings Plans và Reserved Instances
-  - Right-sizing EC2
-  - Theo dõi và trực quan hóa chi phí
-
----
-
-### Tổng quan công việc
-
-| Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
-|:----:|---------|:------------:|:---------------:|-------------------|
-|  2   | **Automation & Monitoring**:<br>- AWS Lambda<br>- CloudWatch + Grafana<br>- EC2 Tagging<br>- Systems Manager | 26/01/2026 | 26/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-|  3   | **Security**:<br>- IAM Permission Boundary<br>- Security Hub<br>- AWS WAF | 27/01/2026 | 27/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-|  4   | **Reliability**:<br>- AWS Backup<br>- VPC Peering<br>- Transit Gateway | 28/01/2026 | 28/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-|  5   | **Performance**:<br>- Docker + ECS<br>- CodePipeline<br>- File Storage Gateway | 29/01/2026 | 29/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-|  6   | **Cost Optimization**:<br>- Savings Plans<br>- Reserved Instances<br>- Cost Visualization | 30/01/2026 | 30/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+- **Quản lý tài chính (Cost Optimization)**:
+  - Mua trước dung lượng/dịch vụ qua Savings Plans và Reserved Instances để giảm phí.
+  - Đánh giá và điều chỉnh lại cấu hình EC2 cho vừa vặn (Right-sizing).
+  - Vẽ biểu đồ theo dõi các khoản chi tiêu Cloud sát sao.
 
 ---
 
-### Kết quả đạt được
+### Chi tiết nhiệm vụ
 
-#### Những gì đã hoàn thành
+| Ngày | Chi tiết công việc | Bắt đầu | Hoàn thành | Nguồn tài liệu |
+|:----:|--------------------|:-------:|:----------:|----------------|
+|  2   | **Tự động & Giám sát**:<br>- Lập trình Lambda<br>- Tích hợp CloudWatch và Grafana<br>- Quản lý bằng Tags<br>- Công cụ Systems Manager | 26/01/2026 | 26/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+|  3   | **Hàng rào bảo mật**:<br>- Giới hạn quyền theo Boundary<br>- Đánh giá từ Security Hub<br>- Áp dụng luật WAF | 27/01/2026 | 27/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+|  4   | **Dự phòng & Mạng**:<br>- Lên lịch AWS Backup<br>- Định tuyến VPC Peering<br>- Thiết lập Transit Gateway | 28/01/2026 | 28/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+|  5   | **Hiệu suất hệ thống**:<br>- Container hóa vs Docker/ECS<br>- Dựng luồng CodePipeline<br>- Kết nối File Storage Gateway | 29/01/2026 | 29/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+|  6   | **Cân đối thu chi**:<br>- Tham gia Savings Plans<br>- Đăng ký Reserved Instances<br>- Dashboard báo cáo chi phí | 30/01/2026 | 30/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
 
-- Tự động hóa vận hành:
-  - Tự động tắt EC2 và gửi thông báo bằng Lambda
-  - Xây dựng dashboard giám sát với CloudWatch và Grafana
-  - Quản lý tài nguyên bằng Tags và Systems Manager
+---
 
-- Tăng cường bảo mật:
-  - Áp dụng **IAM Permission Boundary**
-  - Triển khai **AWS WAF**
-  - Kiểm tra bảo mật với **Security Hub**
+### Thành quả Tuần 4
 
-- Nâng cao độ tin cậy:
-  - Thiết lập backup tự động với **AWS Backup**
-  - Kết nối mạng ổn định qua **VPC Peering** và **Transit Gateway**
+#### Cột mốc đạt được
 
-- Tối ưu hiệu năng:
-  - Triển khai ứng dụng container với **Docker + ECS**
-  - Xây dựng CI/CD pipeline
+- Đưa tự động hóa vào đời sống vận hành:
+  - Script Lambda giúp tự động tắt EC2 lúc ngoài giờ làm và báo cáo lỗi qua Slack.
+  - Xây lên các bảng điều khiển số liệu trực quan cùng CloudWatch cộng hưởng Grafana.
+  - Áp dụng Tags và dùng Systems Manager để thao tác dễ dàng trên lô lượng lớn tài nguyên.
 
-- Tối ưu chi phí:
-  - Áp dụng **Savings Plans / Reserved Instances**
-  - Thực hiện **Right-sizing EC2**
-  - Theo dõi chi phí sử dụng
+- Nâng trần phòng ngự cho hệ thống:
+  - Gắn chặt giới hạn hạn quyền với **IAM Permission Boundary**.
+  - Đứng vững trước lưu lượng web có dấu hiệu lừa đảo thông qua **AWS WAF**.
+  - Thường xuyên khám sức khỏe an ninh bằng **Security Hub**.
 
-#### Tóm tắt kiến trúc
+- Tăng cường sức chịu đựng của dịch vụ:
+  - Tạo luồng sao lưu định kỳ liền mạch cùng **AWS Backup**.
+  - Thông hành trơn tru giữa các khu vực mạng thông qua **VPC Peering** và trạm trung chuyển **Transit Gateway**.
 
-- **Automation**: Lambda + Systems Manager
-- **Monitoring**: CloudWatch + Grafana
-- **Security**: IAM Boundary + WAF + Security Hub
-- **Networking**: VPC Peering + Transit Gateway
-- **Compute**: ECS (Docker containers)
-- **CI/CD**: CodePipeline
-- **Storage**: File Storage Gateway
-- **Cost**: Savings Plans + Cost Monitoring
+- Đáp ứng năng lực xử lý vượt trội:
+  - Chạy ứng dụng dưới định dạng container qua công cụ **Docker + ECS**.
+  - Dựng thành công tuyến đường băng chuyền CI/CD.
+
+- Tối giản hóa hóa đơn hàng tháng:
+  - Đăng ký lộ trình chiết khấu **Savings Plans / Reserved Instances**.
+  - Điều hướng và thu hẹp bớt tài nguyên máy ảo bị dư thừa năng lực (**Right-sizing EC2**).
+  - Hiển thị trực quan bức tranh chi tiêu AWS.
+
+#### Kiến thức cốt lõi
+
+- **Trục tự động (Automation)**: Cặp bài trùng Lambda và Systems Manager.
+- **Trục giám sát (Monitoring)**: Số liệu CloudWatch được visualize bằng Grafana.
+- **Trục an ninh (Security)**: Chốt chặn IAM Boundary + Bộ lọc truy cập WAF + Trung tâm soát lỗi Security Hub.
+- **Trục điều hướng (Networking)**: Mạng nối tiếp VPC Peering + Nút mạng trung tâm Transit Gateway.
+- **Trục xử lý (Compute)**: Dàn Container vận hành trên hệ thống ECS (Docker).
+- **Trục đóng gói (CI/CD)**: Trình quản lý luồng CodePipeline.
+- **Trục mở rộng (Storage)**: Kỹ thuật nhúng lưu trữ File Storage Gateway.
+- **Trục kế toán (Cost)**: Áp dụng Savings Plans đi kèm hệ thống kiểm soát tiền tệ.

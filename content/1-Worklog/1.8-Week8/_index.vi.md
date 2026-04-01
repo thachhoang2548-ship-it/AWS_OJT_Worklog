@@ -6,56 +6,56 @@ chapter: false
 pre: " <b> 1.8. </b> "
 ---
 
-### Mục tiêu Tuần 8
+### Trọng tâm của Tuần 8
 
-Tuần này tập trung vào việc bắt đầu triển khai dự án thực tế bằng cách phát triển mã nguồn và tích hợp các dịch vụ AWS cốt lõi vào hệ thống.
+Tuần này đánh dấu bước chuyển mình quan trọng từ việc thiết kế trên giấy sang giai đoạn gõ code thực tế. Nhóm tiến hành lập trình các dòng code đầu tiên và kết nối trực tiếp những dịch vụ trọng tâm của AWS vào nền tảng.
 
-- **Phát triển dự án**:
-  - Bắt đầu code các chức năng chính của dự án
-  - Kết nối giữa frontend, backend và database
-  - Hoàn thiện nền tảng kỹ thuật ban đầu cho hệ thống
+- **Bắt tay Lập trình**:
+  - Khởi tạo mã nguồn cho các tính năng xương sống.
+  - Đấu nối mượt mà giữa lớp màn hình (frontend), xử lý logic (backend) và CSDL.
+  - Đúc kết bộ khung kỹ thuật để làm bệ phóng cho các vòng lặp sau.
 
-- **Tích hợp dịch vụ AWS**:
-  - **Amazon EC2** để triển khai và vận hành ứng dụng
-  - **Amazon RDS** để lưu trữ và quản lý dữ liệu quan hệ
-  - **Amazon S3** để lưu trữ file tĩnh và tài nguyên người dùng
-  - **AWS Map** để hỗ trợ hiển thị bản đồ và dữ liệu vị trí
+- **Nhúng Dịch vụ Đám mây AWS**:
+  - Dùng **Amazon EC2** làm máy chủ chứa tài nguyên web.
+  - Nối **Amazon RDS** làm trung tâm quản trị dữ liệu quan hệ lõi.
+  - Biến **Amazon S3** thành kho chứa ảnh, file tĩnh và tài liệu upload.
+  - Tích hợp **AWS Map** để phủ sóng tính năng bản đồ và định vị.
 
-- **Kiểm thử và hiệu chỉnh**:
-  - Kiểm tra luồng hoạt động giữa các thành phần
-  - Xử lý các lỗi phát sinh trong quá trình tích hợp
-  - Cải thiện cấu trúc dự án để thuận tiện cho các tuần tiếp theo
-
----
-
-### Tổng quan công việc
-
-| Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
-|:----:|---------|:------------:|:---------------:|-------------------|
-|  2   | **Project Coding Setup**:<br>- Khởi tạo cấu trúc project<br>- Bắt đầu code các chức năng chính | 02/03/2026 | 02/03/2026 | Internal |
-|  3   | **Database & Backend Integration**:<br>- Kết nối backend với RDS<br>- Xử lý dữ liệu cơ bản | 03/03/2026 | 03/03/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-|  4   | **S3 Integration**:<br>- Cấu hình S3<br>- Upload và quản lý file tĩnh | 04/03/2026 | 04/03/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-|  5   | **Map Service Integration**:<br>- Tích hợp bản đồ AWS<br>- Hiển thị dữ liệu vị trí trên giao diện | 05/03/2026 | 05/03/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-|  6   | **EC2 Deployment & Testing**:<br>- Deploy ứng dụng lên EC2<br>- Kiểm thử tích hợp toàn hệ thống | 06/03/2026 | 06/03/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+- **Kiểm định & Tối ưu**:
+  - Xác thực đường đi của dữ liệu xuyên qua các lớp kiến trúc.
+  - Sửa lỗi (debug) các tình huống bất đồng bộ trong khâu tích hợp.
+  - Sàng lọc cấu trúc code nhằm tạo đà cho lộ trình các tuần tới.
 
 ---
 
-### Kết quả đạt được
+### Chi tiết nhiệm vụ
 
-#### Những gì đã hoàn thành
+| Ngày | Chi tiết công việc | Bắt đầu | Hoàn thành | Nguồn tài liệu |
+|:----:|--------------------|:-------:|:----------:|----------------|
+|  2   | **Khởi động Source Code**:<br>- Khởi ráp khung thư mục project<br>- Viết tính năng cơ bản | 02/03/2026 | 02/03/2026 | Internal |
+|  3   | **Ghép nối DB & Backend**:<br>- Thông mạch từ API xuống RDS<br>- Trích xuất dữ liệu mồi | 03/03/2026 | 03/03/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+|  4   | **Xử lý Tệp tĩnh (S3)**:<br>- Setup bucket S3<br>- Điều phối file asset | 04/03/2026 | 04/03/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+|  5   | **Xử lý Bản đồ (Maps)**:<br>- Gắn API AWS Map<br>- Đẩy tọa độ lên frontend | 05/03/2026 | 05/03/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+|  6   | **Deploy & Test**:<br>- Đưa mã nguồn lên EC2<br>- Chạy thử luồng (end-to-end) | 06/03/2026 | 06/03/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
 
-- Bắt đầu triển khai **mã nguồn thực tế** cho dự án
-- Xây dựng được nền tảng tích hợp giữa **frontend, backend và database**
-- Kết nối thành công **Amazon RDS** để lưu trữ dữ liệu
-- Cấu hình và sử dụng **Amazon S3** để lưu trữ tài nguyên tĩnh
-- Tích hợp **AWS Map** để phục vụ chức năng hiển thị vị trí
-- Triển khai ứng dụng thử nghiệm trên **Amazon EC2**
-- Kiểm tra được luồng hoạt động cơ bản của hệ thống sau tích hợp
+---
 
-#### Tóm tắt kiến trúc
+### Thành quả Tuần 8
 
-- **Compute**: Amazon EC2 để chạy ứng dụng
-- **Database**: Amazon RDS để lưu trữ dữ liệu quan hệ
-- **Storage**: Amazon S3 để lưu file và tài nguyên tĩnh
-- **Map Service**: AWS Map để hiển thị bản đồ và dữ liệu vị trí
-- **Application Flow**: Frontend ↔ Backend ↔ AWS Services
+#### Cột mốc đạt được
+
+- Phát pháo những chuỗi **code logic đầu tiên** vào thực tế.
+- Thiết lập tuyến giao thông thông suốt giữa block **Frontend, Backend và Database**.
+- Chỉ định đích đến dữ liệu chuẩn xác vào **Amazon RDS**.
+- Khai thác thành công kho lưu trữ object **Amazon S3**.
+- Sử dụng trơn tru **AWS Map** phục vụ mục đích không gian địa lý.
+- Đẩy thành công bản ứng dụng thử nghiệm (staging) lên cổng **Amazon EC2**.
+- Đảm bảo luồng chạy thao tác cơ bản (end-to-end flow) hoạt động ổn định.
+
+#### Định hướng Kiến trúc
+
+- **Đầu não xử lý (Compute)**: EC2 đảm trách việc nhận lệnh và phản hồi.
+- **Kho dữ liệu (Database)**: RDS bảo quản dữ liệu nghiệp vụ chặt chẽ.
+- **Kho tập tin (Storage)**: S3 quán xuyến toàn bộ media và file tĩnh.
+- **Hệ Định vị (Map Service)**: AWS Map lo khâu vẽ bản đồ trực quan.
+- **Luồng dữ liệu (Flow)**: Vận hành trơn tru cấu trúc Frontend ↔ Backend ↔ AWS.

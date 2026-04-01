@@ -6,84 +6,84 @@ chapter: false
 pre: " <b> 1.4. </b> "
 ---
 
-### Week 4 Objectives
+### Targets for Week 4
 
-This week focused on operating systems in a production-ready environment, covering automation, security, reliability, performance, and cost optimization based on the AWS Well-Architected Framework.
+The theme for this week was architecting structured operations for a production-ready cloud deployment, touching upon automation, defensive security, fault tolerance, system efficiency, and financial control—all aligned with the AWS Well-Architected Framework.
 
-- **Operational Excellence**:
-  - Automate tasks using AWS Lambda (EC2 shutdown, Slack notifications)
-  - Build monitoring systems with CloudWatch and Grafana
-  - Manage EC2 resources using Tags
-  - Automate operations with AWS Systems Manager
+- **Operational Efficiency**:
+  - Streamline repetitive chores with AWS Lambda (e.g., auto-stopping EC2 instances, sending Slack alerts).
+  - Establish robust telemetry via CloudWatch coupled with Grafana dashboards.
+  - Implement structured resource tagging for EC2 instances.
+  - Systematize operational management using AWS Systems Manager.
 
-- **Security**:
-  - Apply IAM Permission Boundaries
-  - Audit security using AWS Security Hub
-  - Protect applications with AWS WAF
+- **Defensive Posture**:
+  - Restrict maximum privileges leveraging IAM Permission Boundaries.
+  - Conduct thorough compliance checks using AWS Security Hub.
+  - Shield web applications from malicious traffic with AWS WAF.
 
-- **Reliability**:
-  - Implement backup strategies with AWS Backup
-  - Connect VPCs via VPC Peering
-  - Centralize networking using Transit Gateway
+- **Fault Tolerance & Reliability**:
+  - Institute comprehensive data protection plans through AWS Backup.
+  - Interconnect isolated networks using VPC Peering.
+  - Unify network routing utilizing AWS Transit Gateway.
 
-- **Performance Efficiency**:
-  - Containerize applications with Docker and deploy on ECS
-  - Build CI/CD pipelines using CodePipeline
-  - Use File Storage Gateway for scalable storage
+- **System Performance**:
+  - Package applications into Docker containers and orchestrate them via ECS.
+  - Assemble continuous delivery and integration processes using CodePipeline.
+  - Map dynamic file storage dynamically utilizing File Storage Gateway.
 
-- **Cost Optimization**:
-  - Apply Savings Plans and Reserved Instances
-  - Perform EC2 right-sizing
-  - Visualize and monitor cost usage
-
----
-
-### Tasks Overview
-
-| Day | Task | Start Date | Completion Date | References |
-| :-: |------|:----------:|:---------------:|------------|
-|  2  | **Automation & Monitoring**:<br>- AWS Lambda<br>- CloudWatch + Grafana<br>- EC2 Tagging<br>- Systems Manager | 26/01/2026 | 26/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-|  3  | **Security**:<br>- IAM Permission Boundary<br>- Security Hub<br>- AWS WAF | 27/01/2026 | 27/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-|  4  | **Reliability**:<br>- AWS Backup<br>- VPC Peering<br>- Transit Gateway | 28/01/2026 | 28/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-|  5  | **Performance**:<br>- Docker + ECS<br>- CodePipeline<br>- File Storage Gateway | 29/01/2026 | 29/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-|  6  | **Cost Optimization**:<br>- Savings Plans<br>- Reserved Instances<br>- Cost Visualization | 30/01/2026 | 30/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+- **Financial Control**:
+  - Reduce long-term compute expenses by adopting Savings Plans and Reserved Instances.
+  - Optimize server capacities via EC2 right-sizing strategies.
+  - Track and visually break down AWS billing details.
 
 ---
 
-### Week 4 Achievements
+### Task Breakdown
 
-#### What was accomplished
+| Day | Task Description | Started | Completed | Source Link |
+| :-: |------------------|:-------:|:---------:|-------------|
+|  2  | **Ops & Telemetry**:<br>- Lambda automation<br>- CloudWatch & Grafana setup<br>- Implementing Tags<br>- Systems Manager control | 26/01/2026 | 26/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+|  3  | **Cybersecurity**:<br>- IAM Boundaries<br>- Security Hub enablement<br>- WAF configuration | 27/01/2026 | 27/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+|  4  | **Disaster Recovery & Network**:<br>- AWS Backup configurations<br>- Peering VPCs<br>- Transit Gateway setup | 28/01/2026 | 28/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+|  5  | **Efficiency Tuning**:<br>- Dockerization / ECS orchestration<br>- CodePipeline setup<br>- File Storage Gateway binding | 29/01/2026 | 29/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+|  6  | **Billing Optimization**:<br>- Purchasing Savings Plans<br>- Acquiring Reserved Instances<br>- Spending analytics | 30/01/2026 | 30/01/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
 
-- Automated operations:
-  - Automated EC2 shutdown and notifications using Lambda
-  - Built monitoring dashboards with CloudWatch and Grafana
-  - Managed resources using Tags and Systems Manager
+---
 
-- Enhanced security:
-  - Implemented **IAM Permission Boundaries**
-  - Deployed **AWS WAF**
-  - Audited security with **Security Hub**
+### Results of Week 4
 
-- Improved reliability:
-  - Implemented automated backups with **AWS Backup**
-  - Ensured stable networking via **VPC Peering** and **Transit Gateway**
+#### Milestones Reached
 
-- Optimized performance:
-  - Deployed containerized applications using **Docker + ECS**
-  - Built CI/CD pipelines
+- Engineered automated workflows:
+  - Scheduled EC2 shutdowns and integrated Slack notifications via Lambda triggers.
+  - Crafted highly visible operational metrics dashboards leveraging CloudWatch and Grafana.
+  - Enforced structured grouping of assets through Tags and Systems Manager.
 
-- Optimized cost:
-  - Applied **Savings Plans / Reserved Instances**
-  - Performed **EC2 right-sizing**
-  - Monitored and visualized cost usage
+- Bolstered application security:
+  - Put strict guardrails in place via **IAM Permission Boundaries**.
+  - Activated a sturdy defensive layer with **AWS WAF**.
+  - Assessed and continuously monitored compliance via **Security Hub**.
 
-#### Architecture Summary
+- Guaranteed system stability:
+  - Enforced solid disaster recovery capabilities with **AWS Backup**.
+  - Facilitated seamless cross-network communications utilizing **VPC Peering** and **Transit Gateway**.
 
-- **Automation**: Lambda + Systems Manager
-- **Monitoring**: CloudWatch + Grafana
-- **Security**: IAM Boundary + WAF + Security Hub
-- **Networking**: VPC Peering + Transit Gateway
-- **Compute**: ECS (Docker)
-- **CI/CD**: CodePipeline
-- **Storage**: File Storage Gateway
-- **Cost**: Savings Plans + Cost Monitoring
+- Maximized processing throughput:
+  - Successfully containerized and hosted digital services via **Docker and ECS**.
+  - Established a robust foundational CI/CD pipeline.
+
+- Curtailed unnecessary expenditures:
+  - Committed to **Savings Plans and Reserved Instances** for steady workloads.
+  - Scaled down over-provisioned capacity (**EC2 right-sizing**).
+  - Extracted transparent insights from usage metrics to tame cloud spending.
+
+#### Architecture Key Takeaways
+
+- **Operational Engine**: Lambda combined with Systems Manager.
+- **Observability Stack**: CloudWatch paired with Grafana.
+- **Defense Mechanism**: IAM Permissions Boundary + Web App Firewall (WAF) + Security Hub.
+- **Topology Core**: VPC Peering + Transit Gateway Hub.
+- **Processing Layer**: Elastic Container Service (ECS) hosting Docker instances.
+- **Delivery Pipeline**: AWS CodePipeline.
+- **Extended Storage**: File Storage Gateway caching mechanism.
+- **FinOps Framework**: Savings Plans + Cost/Usage Tracking.

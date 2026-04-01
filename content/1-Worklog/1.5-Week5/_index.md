@@ -6,57 +6,57 @@ chapter: false
 pre: " <b> 1.5. </b> "
 ---
 
-### Week 5 Objectives
+### Targets for Week 5
 
-This week focused on preparing for the final project implementation, setting up the environment, and expanding practical knowledge through community engagement and AWS service exploration.
+The thrust of this week was gearing up for the capstone project execution. We focused on environment provisioning, collaborative brainstorming, and broadening our practical skillset through community events and AWS service trials.
 
-- **Project Preparation**:
-  - Collaborate with FCJ members
-  - Clarify project requirements and direction
+- **Project Blueprinting**:
+  - Syndicate ideas with FCJ teammates.
+  - Pin down the exact project scope and technical trajectory.
 
-- **Environment Setup**:
-  - Research and design project environment
-  - Prepare required infrastructure
+- **Infrastructure Initialization**:
+  - Investigate and map out the deployment landscape.
+  - Provision the base resources required for the application.
 
-- **AWS Service Exploration**:
-  - Experiment with relevant AWS services
-  - Identify cost-effective solutions
+- **Service Experimentation**:
+  - Test out potential AWS services for the project.
+  - Seek out architectures that balance cost and performance.
 
-- **Community Engagement**:
-  - Attend **AWS re:Invent Recap HCMC (04/02/2026)**
-  - Learn about new trends and best practices
+- **Community Participation**:
+  - Participate in the **AWS re:Invent Recap HCMC (04/02/2026)**.
+  - Absorb new industry shifts and architectural best practices.
 
-- **Review & Reinforcement**:
-  - Review knowledge from Week 1–4
-
----
-
-### Tasks Overview
-
-| Day | Task | Start Date | Completion Date | References |
-| :-: |------|:----------:|:---------------:|------------|
-|  2  | **Project Preparation**:<br>- Discuss with FCJ members<br>- Define project direction | 02/02/2026 | 02/02/2026 | Internal |
-|  3  | **Environment Setup**:<br>- Research environment<br>- Prepare infrastructure | 03/02/2026 | 03/02/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-|  4  | **AWS Event**:<br>- Attend AWS re:Invent Recap HCMC<br>- Capture insights | 04/02/2026 | 04/02/2026 | Event |
-|  5  | **Service Exploration**:<br>- Test AWS services<br>- Cost optimization research | 05/02/2026 | 05/02/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
-|  6  | **Review**:<br>- Review Week 1–4<br>- Consolidate knowledge | 06/02/2026 | 06/02/2026 | Personal Notes |
+- **Knowledge Consolidation**:
+  - Review materials from Weeks 1 through 4.
 
 ---
 
-### Week 5 Achievements
+### Task Breakdown
 
-#### What was accomplished
+| Day | Task Description | Started | Completed | Source Link |
+| :-: |------------------|:-------:|:---------:|-------------|
+|  2  | **Capstone Strategy**:<br>- FCJ team sync<br>- Solidify project goals | 02/02/2026 | 02/02/2026 | Internal |
+|  3  | **Environment Prep**:<br>- Infrastructure planning<br>- Setting up the base | 03/02/2026 | 03/02/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+|  4  | **Networking & Events**:<br>- Attend re:Invent Recap<br>- Document key takeaways | 04/02/2026 | 04/02/2026 | Event |
+|  5  | **AWS Service Trials**:<br>- Hands-on testing<br>- FinOps research | 05/02/2026 | 05/02/2026 | [AWS Docs](https://cloudjourney.awsstudygroup.com/) |
+|  6  | **Recap Session**:<br>- Review Weeks 1-4<br>- Summarize core concepts | 06/02/2026 | 06/02/2026 | Personal Notes |
 
-- Gained a clearer understanding of the **final project scope and direction**
-- Expanded knowledge through collaboration with **FCJ community**
-- Attended **AWS re:Invent Recap HCMC** and learned industry insights
-- Researched and defined a suitable deployment environment
-- Explored AWS services for **cost optimization**
-- Reinforced knowledge from previous weeks
+---
 
-#### Direction Summary
+### Results of Week 5
 
-- **Project**: Defined architecture and technology stack
-- **Environment**: Ready for implementation
-- **Learning**: Combined theory, practice, and community insights
-- **Optimization**: Focused on performance and cost efficiency
+#### Milestones Reached
+
+- Established a concrete vision and scope for the **capstone project**.
+- Deepened technical understanding via active **FCJ community** discussions.
+- Extracted valuable industry trends from the **AWS re:Invent Recap HCMC**.
+- Evaluated and finalized the target hosting environment.
+- Conducted hands-on evaluations of AWS offerings to ensure **cost-efficiency**.
+- Locked in the foundational knowledge from previous study weeks.
+
+#### Strategic Direction Recap
+
+- **Project Goal**: Finalized the application architecture and tech stack.
+- **Environment**: Primed for active development and deployment.
+- **Continuous Learning**: Merged theoretical concepts, hands-on labs, and expert insights.
+- **Operational Focus**: Driven by high performance coupled with lean spending.

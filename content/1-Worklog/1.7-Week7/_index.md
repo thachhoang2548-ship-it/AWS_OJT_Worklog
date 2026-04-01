@@ -6,60 +6,60 @@ chapter: false
 pre: " <b> 1.7. </b> "
 ---
 
-### Week 7 Objectives
+### Targets for Week 7
 
-This week focused on continuing the new project implementation, including database design, idea development, and initial UI planning. In addition, the team attended a hands-on workshop to expand practical knowledge of observability on AWS.
+This week marked the continuation of our new project implementation, narrowing down idea development, constructing initial database logic, and drafting early UI concepts. We also engaged in a hands-on Datadog workshop to bolster our understanding of AWS observability.
 
-- **Project Idea Development**:
-  - Refine the project direction and scope
-  - Identify core system components
-  - Clarify the overall architecture
+- **Project Concept Refinement**:
+  - Sharpen the scope and long-term direction.
+  - Formulate the primary system modules.
+  - Finalize the high-level architecture roadmap.
 
-- **Database Development**:
-  - Design the database for the project
-  - Define tables, relationships, and required data
-  - Prepare the structure for upcoming features
+- **Data Layer Design**:
+  - Conceptualize the database schema for the application.
+  - Map out essential tables, attributes, and relationships.
+  - Create a flexible structure to accommodate future expansions.
 
-- **UI Design**:
-  - Draft the initial interface for the new project
-  - Define the basic user flow
-  - Prepare the foundation for frontend development
+- **User Interface (UI) Strategies**:
+  - Render preliminary wireframes.
+  - Chart out fundamental user interaction flows.
+  - Establish a steady baseline for frontend programming.
 
-- **Practical Learning**:
-  - Attend the workshop **Building Full-Stack Observability on AWS with Datadog**
-  - Learn how to monitor metrics, logs, and traces on AWS
-  - Explore observability concepts for distributed systems
-
----
-
-### Tasks Overview
-
-| Day | Task | Start Date | Completion Date | References |
-| :-: |------|:----------:|:---------------:|------------|
-|  2  | **Project Ideation**:<br>- Refine project idea<br>- Define scope and overall architecture | 24/02/2026 | 24/02/2026 | Internal |
-|  3  | **Database Design**:<br>- Design database<br>- Define tables, keys, and relationships | 25/02/2026 | 25/02/2026 | Personal Notes |
-|  4  | **UI Planning**:<br>- Draft interface<br>- Build basic user flow | 26/02/2026 | 26/02/2026 | Figma / Internal |
-|  5  | **AWS Workshop Event**:<br>- Attend “Building Full-Stack Observability on AWS with Datadog”<br>- Learn AWS metrics, logs, and traces monitoring | 27/02/2026 | 27/02/2026 | Event |
+- **Hands-On Datadog Workshop**:
+  - Participated in **Building Full-Stack Observability on AWS with Datadog**.
+  - Learned to capture and analyze metrics, logs, and distributed traces.
+  - Addressed complex root cause analysis within microservices/distributed setups.
 
 ---
 
-### Week 7 Achievements
+### Task Breakdown
 
-#### What was accomplished
+| Day | Task Description | Started | Completed | Source Link |
+| :-: |------------------|:-------:|:---------:|-------------|
+|  2  | **Concept Finalization**:<br>- Fine-tune project goals<br>- Set scope & architecture | 24/02/2026 | 24/02/2026 | Internal |
+|  3  | **Schema Development**:<br>- Map database architecture<br>- Detail relations and keys | 25/02/2026 | 25/02/2026 | Personal Notes |
+|  4  | **Frontend UX/UI**:<br>- Draft initial wireframes<br>- Establish the user flow | 26/02/2026 | 26/02/2026 | Figma / Internal |
+|  5  | **Observability Event**:<br>- Join Datadog Workshop<br>- Absorb logging/tracing methodologies | 27/02/2026 | 27/02/2026 | Event |
 
-- Refined the **project idea and implementation direction**
-- Built the foundation for the project’s **database design**
-- Drafted the **initial user interface** and main user flow
-- Expanded knowledge of **observability on AWS**
-- Attended a hands-on workshop and gained practical exposure to:
-  - Metrics
-  - Logs
-  - Traces
-  - Root cause analysis in distributed systems
+---
 
-#### Direction Summary
+### Results of Week 7
 
-- **Project Planning**: Defined project scope, functions, and overall architecture
-- **Database Layer**: Designed data tables and relationships
-- **Interface Layer**: Prepared wireframes and user experience direction
-- **Observability**: Explored modern monitoring practices on AWS with Datadog
+#### Milestones Reached
+
+- Locked in a clear **vision and executable roadmap** for the project.
+- Mapped out a scalable **database architecture**.
+- Delivered actionable **UI wireframes** depicting end-user pathways.
+- Greatly improved practical knowledge regarding **AWS observability**.
+- Engaged directly with industry tools (Datadog) to explore:
+  - System Metrics
+  - Centralized Logs
+  - Distributed Tracing
+  - Advanced Root Cause Analysis
+
+#### Strategic Direction Recap
+
+- **Project Roadmap**: Aligned on the exact scope, featured components, and overall layout.
+- **Database Architecture**: Engineered schema schemas and entity relationships.
+- **Frontend Layer**: Crafted initial interface guidelines and logic flows.
+- **System Monitoring**: Embraced modern observability patterns using AWS and Datadog.
