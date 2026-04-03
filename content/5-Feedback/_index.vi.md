@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 5. </b> "
 ---
 
-Trong thời gian thực tập tại Công ty Amazon Web Services Vietnam Co., Ltd. từ ngày 08/09/2025 đến ngày 12/12/2025, em đã có cơ hội học hỏi, thực hành và vận dụng những kiến thức đã được học tại trường vào môi trường làm việc thực tế.
+Trong thời gian thực tập tại Công ty Amazon Web Services Vietnam Co., Ltd. từ ngày 05/01/2026 đến ngày 12/04/2026, em đã có cơ hội học hỏi, thực hành và vận dụng những kiến thức đã được học tại trường vào môi trường làm việc thực tế.
 
 Trong suốt quá trình thực tập, em được tiếp cận với các dịch vụ của AWS, từ đó nâng cao hiểu biết về điện toán đám mây, kiến trúc dịch vụ AWS, công nghệ serverless, quản lý hạ tầng cloud và các best practices trong thực tế. Những trải nghiệm này giúp em củng cố cả nền tảng kỹ thuật lẫn kỹ năng làm việc thực tiễn.
 

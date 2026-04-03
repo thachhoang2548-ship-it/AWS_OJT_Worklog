@@ -1,12 +1,12 @@
 ---
 title: "Self-Assessment"
-date: 2026-03-25
+date: 2026-03-24
 weight: 5
 chapter: false
 pre: " <b> 5. </b> "
 ---
 
-During my internship at Amazon Web Services Vietnam Co., Ltd. from September 8, 2025 to December 12, 2025, I had the opportunity to learn, practice, and apply the knowledge acquired in university to a real working environment.
+During my internship at Amazon Web Services Vietnam Co., Ltd. from January 6, 2026 to April 12, 2026, I had the opportunity to learn, practice, and apply the knowledge acquired in university to a real working environment.
 
 Throughout the internship, I gained exposure to AWS services and improved my understanding of cloud computing, AWS architecture, serverless technologies, cloud infrastructure management, and industry best practices. This experience helped me strengthen both my technical foundation and my practical working skills.
 
