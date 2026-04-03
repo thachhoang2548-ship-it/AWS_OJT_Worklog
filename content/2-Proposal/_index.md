@@ -99,30 +99,38 @@ The full-stack platform delivers both technical and business value:
 
 ### 3. Solution Architecture
 
-The platform follows a **full-stack layered architecture** with clear separation between frontend, backend, and data layers.
+The platform follows a **highly available, resilient, and secure cloud architecture** across multiple availability zones, with clear separation between frontend, application, data, and security layers.
 
-End users access the frontend via CloudFront, which serves static assets from Amazon S3. The frontend communicates with backend APIs through a centralized Axios client with JWT authentication. API requests are routed via Nginx to the Spring Boot backend. Data is stored in Amazon RDS for SQL Server.
+End users access the platform via **Amazon CloudFront**, secured by an **AWS WAF (Web Application Firewall)**. CloudFront securely serves static frontend assets directly from **Amazon S3** using **Origin Access Control (OAC)** to prevent direct public access. API requests from the frontend are routed through an **Application Load Balancer (ALB)**.
 
-![EV Charging System Architecture](/images/2-Proposal/aws-ev-architecture.png)
+The backend operates in a **VPC across two Availability Zones (Multi-AZ)** for high availability. Traffic from the ALB is routed to **EC2 instances within an Auto Scaling Group**, located in **Private Subnets**. These instances access the internet securely via **NAT Gateways** in the public subnets. Administrative access to these servers is securely managed through **AWS Systems Manager (SSM)** without requiring exposed public IPs or SSH keys.
+
+The data layer features **Amazon RDS for SQL Server deployed in a Multi-AZ format (Primary and Standby)** in completely isolated private subnets. Additionally, the architecture incorporates robust observability and security measures using **AWS Secrets Manager, KMS, CloudWatch, and CloudTrail**. Email notifications are now securely handled using **Amazon SES**.
+
+![EV Charging System Architecture](/images/2-Proposal/aws-ev-architecture-v2.png)
+*(Note: Please rename your new architecture diagram to `aws-ev-architecture-v2.png` and place it in the `static/images/2-Proposal/` folder)*
 
 | Component | Service / Technology |
 | --------------------- | -------------------------- |
 | Frontend Framework | React (Vite) |
-| Frontend Hosting | Amazon S3 |
+| Frontend Hosting | Amazon S3 (with OAC) |
 | CDN Delivery | Amazon CloudFront |
+| Security & Firewall | AWS WAF |
 | State Management | Redux (Auth) + Local State |
 | API Communication | Axios + Interceptors |
-| Map Integration | AWS Map |
-| Reverse Proxy | Nginx |
+| Map Integration | Amazon Location Service |
+| Load Balancing | Application Load Balancer (ALB) |
+| Compute & Scaling | Amazon EC2 (Private Subnets) + Auto Scaling Group |
+| High Availability | Multi-AZ Deployment + NAT Gateways |
 | Backend Framework | Spring Boot 3.5.6 |
 | Programming Language | Java 17 |
-| API Layer | REST Controllers |
-| Business Layer | Service Interfaces |
-| Persistence Layer | JPA + Hibernate |
-| Database | Amazon RDS for SQL Server |
+| Database | Amazon RDS for SQL Server (Multi-AZ) |
 | Authentication | JWT + OAuth2 |
+| Security & Secrets | AWS Secrets Manager, AWS KMS |
+| Observability & Auditing | Amazon CloudWatch, AWS CloudTrail |
+| Admin Access | AWS Systems Manager (SSM) |
 | Payment Gateway | VNPay |
-| Email Notification | SMTP + Thymeleaf |
+| Email Service | Amazon SES |
 | Background Jobs | Scheduler + Async |
 
 ---

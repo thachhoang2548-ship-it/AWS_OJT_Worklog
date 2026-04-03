@@ -91,34 +91,38 @@ Chức năng chính:
 
 ### 3. Kiến trúc hệ thống (Solution Architecture)
 
-Hệ thống sử dụng kiến trúc **full-stack nhiều lớp**, tách biệt rõ:
+Hệ thống sử dụng kiến trúc **đám mây bảo mật, khả dụng cao (High Availability)**, được triển khai trên nhiều Availability Zones (Multi-AZ) và phân lớp rõ ràng gồm Edge, Application, Data, Observability & Security.
 
-- Frontend
-- Backend
-- Database
+Người dùng truy cập ứng dụng thông qua **Amazon CloudFront** được bảo vệ bởi tường lửa **AWS WAF**. CloudFront phân phối nội dung tĩnh từ **Amazon S3**, được bảo mật bằng **OAC (Origin Access Control)** chống việc truy cập trực tiếp. Yêu cầu đến API từ client sẽ được định tuyến qua **Application Load Balancer (ALB)**.
 
-Người dùng truy cập frontend qua CloudFront (S3). Frontend gọi API qua Axios (JWT). Nginx định tuyến request vào backend Spring Boot. Dữ liệu lưu trên Amazon RDS SQL Server.
+Backend được triển khai trong mạng VPC trải dài trên **2 Availability Zones**. ALB cân bằng tải request vào các máy chủ **EC2 (trong Auto Scaling Group) được đặt tại Private Subnet** để tăng tính bảo mật. Các máy chủ EC2 này kết nối ra internet thông qua **NAT Gateway**. Việc truy cập quản trị cho Admin được thực hiện bảo mật qua **AWS Systems Manager (SSM)** thay cho SSH truyền thống.
 
-![EV Charging System Architecture](/images/2-Proposal/aws-ev-architecture.png)
+Dữ liệu được quản lý tập trung và an toàn trên **Amazon RDS cho SQL Server Multi-AZ (Primary/Standby)** đặt trong Private Subnet hoàn toàn không có kết nối trực tiếp từ Internet. Hệ thống còn tích hợp **Secrets Manager & KMS** để quản lý credentials/keys mã hóa, cùng với **CloudWatch & CloudTrail** cho việc giám sát, phân tích log lưu vết hệ thống. Email được cấu hình thông qua **Amazon SES**.
+
+![EV Charging System Architecture](/images/2-Proposal/aws-ev-architecture-v2.png)
+*(Lưu ý: Hãy đổi tên ảnh sơ đồ mới thành `aws-ev-architecture-v2.png` và đẩy vào thư mục `static/images/2-Proposal/` nhằm thay thế ảnh cũ)*
 
 | Component | Service / Technology |
 | --------------------- | -------------------------- |
 | Frontend Framework | React (Vite) |
-| Frontend Hosting | Amazon S3 |
+| Frontend Hosting | Amazon S3 (với OAC) |
 | CDN Delivery | Amazon CloudFront |
+| Security & Firewall | AWS WAF |
 | State Management | Redux (Auth) + Local State |
 | API Communication | Axios + Interceptors |
-| Map Integration | AWS Map |
-| Reverse Proxy | Nginx |
+| Map Integration | Amazon Location Service |
+| Load Balancing | Application Load Balancer (ALB) |
+| Compute & Scaling | Amazon EC2 (Private Subnet) + Auto Scaling Group |
+| High Availability | Multi-AZ Deployment + NAT Gateways |
 | Backend Framework | Spring Boot 3.5.6 |
 | Programming Language | Java 17 |
-| API Layer | REST Controllers |
-| Business Layer | Service Interfaces |
-| Persistence Layer | JPA + Hibernate |
-| Database | Amazon RDS for SQL Server |
+| Database | Amazon RDS cho SQL Server (Multi-AZ) |
 | Authentication | JWT + OAuth2 |
+| Security & Secrets | AWS Secrets Manager, AWS KMS |
+| Observability & Auditing | Amazon CloudWatch, AWS CloudTrail |
+| Admin Access | AWS Systems Manager (SSM) |
 | Payment Gateway | VNPay |
-| Email Notification | SMTP + Thymeleaf |
+| Email Service | Amazon SES |
 | Background Jobs | Scheduler + Async |
 
 ---
