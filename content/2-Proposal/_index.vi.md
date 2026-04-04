@@ -99,8 +99,8 @@ Backend được triển khai trong mạng VPC trải dài trên **2 Availabilit
 
 Dữ liệu được quản lý tập trung và an toàn trên **Amazon RDS cho SQL Server Multi-AZ (Primary/Standby)** đặt trong Private Subnet hoàn toàn không có kết nối trực tiếp từ Internet. Hệ thống còn tích hợp **Secrets Manager & KMS** để quản lý credentials/keys mã hóa, cùng với **CloudWatch & CloudTrail** cho việc giám sát, phân tích log lưu vết hệ thống. Email được cấu hình thông qua **Amazon SES**.
 
-![EV Charging System Architecture](/images/2-Proposal/aws-ev-architecture-v2.png)
-*(Lưu ý: Hãy đổi tên ảnh sơ đồ mới thành `aws-ev-architecture-v2.png` và đẩy vào thư mục `static/images/2-Proposal/` nhằm thay thế ảnh cũ)*
+![EV Charging System Architecture](/images/2-Proposal/aws-ev-architecture-v3.png)
+*(Lưu ý: Hãy đổi tên ảnh sơ đồ mới thành `aws-ev-architecture-v3.png` và đẩy vào thư mục `static/images/2-Proposal/` nhằm thay thế ảnh cũ)*
 
 | Component | Service / Technology |
 | --------------------- | -------------------------- |

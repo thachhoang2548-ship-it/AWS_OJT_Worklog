@@ -107,8 +107,8 @@ The backend operates in a **VPC across two Availability Zones (Multi-AZ)** for h
 
 The data layer features **Amazon RDS for SQL Server deployed in a Multi-AZ format (Primary and Standby)** in completely isolated private subnets. Additionally, the architecture incorporates robust observability and security measures using **AWS Secrets Manager, KMS, CloudWatch, and CloudTrail**. Email notifications are now securely handled using **Amazon SES**.
 
-![EV Charging System Architecture](/images/2-Proposal/aws-ev-architecture-v2.png)
-*(Note: Please rename your new architecture diagram to `aws-ev-architecture-v2.png` and place it in the `static/images/2-Proposal/` folder)*
+![EV Charging System Architecture](/images/2-Proposal/aws-ev-architecture-v3.png)
+*(Note: Please rename your new architecture diagram to `aws-ev-architecture-v3.png` and place it in the `static/images/2-Proposal/` folder)*
 
 | Component | Service / Technology |
 | --------------------- | -------------------------- |
