@@ -19,7 +19,7 @@ Workshop này giải thích cách hệ thống EV Charging vận hành như mộ
 - dữ liệu quan hệ cho station, slot, booking, charging session, invoice, loyalty và violation,
 - các tích hợp cho OTP, JWT, VNPay, SMTP, frontend assets host trên AWS, AWS Location, và tùy chọn media storage adapter.
 
-![EV Charging System Architecture](/images/2-Proposal/aws-ev-architecture-v2.png)
+![EV Charging System Architecture](/images/2-Proposal/aws-ev-architecture-v3.png)
 
 ## Vì sao thứ tự luồng nghiệp vụ quan trọng
 
