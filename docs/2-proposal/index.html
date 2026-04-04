@@ -15,21 +15,21 @@
     <title>Proposal :: Internship Report</title>
 
     
-    <link href="../css/nucleus.css?1775199342" rel="stylesheet">
-    <link href="../css/fontawesome-all.min.css?1775199342" rel="stylesheet">
-    <link href="../css/hybrid.css?1775199342" rel="stylesheet">
-    <link href="../css/featherlight.min.css?1775199342" rel="stylesheet">
-    <link href="../css/perfect-scrollbar.min.css?1775199342" rel="stylesheet">
-    <link href="../css/auto-complete.css?1775199342" rel="stylesheet">
-    <link href="../css/atom-one-dark-reasonable.css?1775199342" rel="stylesheet">
-    <link href="../css/theme.css?1775199342" rel="stylesheet">
-    <link href="../css/hugo-theme.css?1775199342" rel="stylesheet">
+    <link href="../css/nucleus.css?1775308143" rel="stylesheet">
+    <link href="../css/fontawesome-all.min.css?1775308143" rel="stylesheet">
+    <link href="../css/hybrid.css?1775308143" rel="stylesheet">
+    <link href="../css/featherlight.min.css?1775308143" rel="stylesheet">
+    <link href="../css/perfect-scrollbar.min.css?1775308143" rel="stylesheet">
+    <link href="../css/auto-complete.css?1775308143" rel="stylesheet">
+    <link href="../css/atom-one-dark-reasonable.css?1775308143" rel="stylesheet">
+    <link href="../css/theme.css?1775308143" rel="stylesheet">
+    <link href="../css/hugo-theme.css?1775308143" rel="stylesheet">
     
-    <link href="../css/theme-workshop.css?1775199342" rel="stylesheet">
+    <link href="../css/theme-workshop.css?1775308143" rel="stylesheet">
     
     
 
-    <script src="../js/jquery-3.3.1.min.js?1775199342"></script>
+    <script src="../js/jquery-3.3.1.min.js?1775308143"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -91,14 +91,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="../js/lunr.min.js?1775199342"></script>
-<script type="text/javascript" src="../js/auto-complete.js?1775199342"></script>
+<script type="text/javascript" src="../js/lunr.min.js?1775308143"></script>
+<script type="text/javascript" src="../js/auto-complete.js?1775308143"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/thachhoang2548-ship-it.github.io\/AWS_OJT_Worklog\/";
     
 </script>
-<script type="text/javascript" src="../js/search.js?1775199342"></script>
+<script type="text/javascript" src="../js/search.js?1775308143"></script>
  
   </div>
 
@@ -1179,8 +1179,8 @@
 <p>End users access the platform via <strong>Amazon CloudFront</strong>, secured by an <strong>AWS WAF (Web Application Firewall)</strong>. CloudFront securely serves static frontend assets directly from <strong>Amazon S3</strong> using <strong>Origin Access Control (OAC)</strong> to prevent direct public access. API requests from the frontend are routed through an <strong>Application Load Balancer (ALB)</strong>.</p>
 <p>The backend operates in a <strong>VPC across two Availability Zones (Multi-AZ)</strong> for high availability. Traffic from the ALB is routed to <strong>EC2 instances within an Auto Scaling Group</strong>, located in <strong>Private Subnets</strong>. These instances access the internet securely via <strong>NAT Gateways</strong> in the public subnets. Administrative access to these servers is securely managed through <strong>AWS Systems Manager (SSM)</strong> without requiring exposed public IPs or SSH keys.</p>
 <p>The data layer features <strong>Amazon RDS for SQL Server deployed in a Multi-AZ format (Primary and Standby)</strong> in completely isolated private subnets. Additionally, the architecture incorporates robust observability and security measures using <strong>AWS Secrets Manager, KMS, CloudWatch, and CloudTrail</strong>. Email notifications are now securely handled using <strong>Amazon SES</strong>.</p>
-<p><img src="../images/2-Proposal/aws-ev-architecture-v2.png" alt="EV Charging System Architecture">
-<em>(Note: Please rename your new architecture diagram to <code>aws-ev-architecture-v2.png</code> and place it in the <code>static/images/2-Proposal/</code> folder)</em></p>
+<p><img src="../images/2-Proposal/aws-ev-architecture-v3.png" alt="EV Charging System Architecture">
+<em>(Note: Please rename your new architecture diagram to <code>aws-ev-architecture-v3.png</code> and place it in the <code>static/images/2-Proposal/</code> folder)</em></p>
 <table>
   <thead>
       <tr>
@@ -2240,19 +2240,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../js/clipboard.min.js?1775199342"></script>
-    <script src="../js/perfect-scrollbar.min.js?1775199342"></script>
-    <script src="../js/perfect-scrollbar.jquery.min.js?1775199342"></script>
-    <script src="../js/jquery.sticky.js?1775199342"></script>
-    <script src="../js/featherlight.min.js?1775199342"></script>
-    <script src="../js/highlight.pack.js?1775199342"></script>
+    <script src="../js/clipboard.min.js?1775308143"></script>
+    <script src="../js/perfect-scrollbar.min.js?1775308143"></script>
+    <script src="../js/perfect-scrollbar.jquery.min.js?1775308143"></script>
+    <script src="../js/jquery.sticky.js?1775308143"></script>
+    <script src="../js/featherlight.min.js?1775308143"></script>
+    <script src="../js/highlight.pack.js?1775308143"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="../js/modernizr.custom-3.6.0.js?1775199342"></script>
-    <script src="../js/learn.js?1775199342"></script>
-    <script src="../js/hugo-learn.js?1775199342"></script>
+    <script src="../js/modernizr.custom-3.6.0.js?1775308143"></script>
+    <script src="../js/learn.js?1775308143"></script>
+    <script src="../js/hugo-learn.js?1775308143"></script>
 
-    <link href="../mermaid/mermaid.css?1775199342" rel="stylesheet" />
-    <script src="../mermaid/mermaid.js?1775199342"></script>
+    <link href="../mermaid/mermaid.css?1775308143" rel="stylesheet" />
+    <script src="../mermaid/mermaid.js?1775308143"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
